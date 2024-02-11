@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Respect for biotechnology",
+	"uniqueTo": "Bio-tech aliens",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Experimental bio cover]"]
+    },
+    {
+        "name": "Fear of Aliens",
+	"uniqueTo": "Bio-tech aliens",
+        "type": "Founder",
+        "uniques": ["[+50]% Unhappiness from [Followers of this Religion] [in enemy cities]", 
+        "[+50]% Unhappiness from [Followers of this Religion] [in foreign cities]"]
+    }, 
+    {
+        "name": "Biocover defence",
+	"uniqueTo": "Bio-tech aliens",
+        "type": "Enhancer",
+        "uniques": ["[+50]% Strength <for [All] units> <when defending> <when fighting in [biocover] tiles>"]
+    }
+]

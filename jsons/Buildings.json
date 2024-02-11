@@ -1,0 +1,401 @@
+[
+	{
+		"name": "Hive Mind Brain",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"production": 5,
+		"cost": 0,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", 
+    "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", "Instantly provides [50] [Bio matter]", 
+    "[+20 Culture, +20 Science, +20 Gold, +15 Production] <if [Human tech] is constructed>", 
+    "[10] Unit Supply per city"]
+	},
+	{
+		"name": "Bio cover usage",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 0,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cover] tiles [in this city]", 
+    "[+2 Food, +2 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Experimental bio cover] tiles [in this city]", 
+    "[+1 Food, +1 Production, +1 Gold, +3 Science, +2 Culture] from [Experimental bio cover] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city]", 
+    "[+2 Food, +2 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio fortress] tiles [in this city]", 
+    "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cannons] tiles [in this city]", 
+    "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Acid spores generator] tiles [in this city]", 
+    "[+1 Food, +4 Science, +1 Culture] from [Acid spores generator] tiles [in this city] <if [Human tech] is constructed>"
+    ]
+	},
+
+
+//buildings
+	{
+		"name": "Hive Mind node",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "New [Military] units start with [10] Experience [in this city]"
+    "Provides [4] [BTA science]", "[+5 Culture, +5 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Advanced Hive Mind node",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Hive Mind node",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [2000] [Bio matter]", "Only available <when above [2000] [Bio matter]>", 
+    "New [Military] units start with [20] Experience [in this city]"
+    "Provides [6] [BTA science]", "[+10 Culture, +10 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 4] is constructed>"]
+	},
+	{
+		"name": "Primary Hive Mind node",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "New [Military] units start with [10] Experience [in this city]"
+    "Provides [5] [BTA science]", "[+8 Culture, +8 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 3] is constructed>", 
+    "Limited to [2] per Civilization"]
+	},
+	{
+		"name": "Bio matter generator",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [100] [Bio matter]", "Unbuildable <when below [100] [Bio matter]>", 
+    "Provides [10] [Bio matter]", "[+2 Production, +1 Gold] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 1] is constructed>"]
+	},
+	{
+		"name": "Bio matter production copmlex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Bio matter generator",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [Bio matter]", "Only available <when above [400] [Bio matter]>", 
+    "Provides [20] [Bio matter]", "[+5 Production, +3 Gold] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Advanced bio matter production complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Bio matter production copmlex",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "Provides [40] [Bio matter]", "[+10 Production, +5 Gold] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 4] is constructed>"]
+	},
+	{
+		"name": "Centralised bio matter production copmlex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Bio matter generator",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [Bio matter]", "Only available <when above [400] [Bio matter]>", 
+    "Provides [20] [Bio matter]", "[+5 Production, +3 Gold] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 2] is constructed>", 
+    "Limited to [4] per Civilization"]
+	},
+	{
+		"name": "Advanced centralized bio matter production complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Bio matter production copmlex",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "Provides [40] [Bio matter]", "[+10 Production, +5 Gold] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 4] is constructed>", 
+    "Limited to [2] per Civilization"]
+	},
+	{
+		"name": "Brain node",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Bio matter generator",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [200] [Bio matter]", "Only available <when above [200] [Bio matter]>", 
+    "Provides [2] [BTA science] <with [Bio matter]>", "Consumes [5] [Bio matter]", 
+    "[+2 Culture, +1 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 1] is constructed>"]
+	},
+	{
+		"name": "Brain complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Brain node",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
+    "Provides [5] [BTA science] <with [Bio matter]>", "Consumes [10] [Bio matter]", 
+    "[+5 Culture, +3 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Advanced brain complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Brain complex",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "Provides [10] [BTA science] <with [Bio matter]>", "Consumes [15] [Bio matter]", 
+    "[+10 Culture, +6 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+	{
+		"name": "Central brain complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Brain node",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
+    "Provides [5] [BTA science] <with [Bio matter]>", "Consumes [20] [Bio matter]", 
+    "[+5 Culture, +4 Science] <if [Human tech] is constructed>", 
+    "Only available <if [Tech level 2] is constructed>", 
+    "Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Incubator",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"requiredBuilding": "Bio matter generator",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
+    "[+10]% Production when constructing [All] units [in this city]", 
+    "Provides [15] [Bio matter]", 
+    "New [Military] units start with [10] Experience [in this city]", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+	{
+		"name": "Military brain node",
+		"uniqueTo": "Bio-tech aliens",
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [800] [Bio matter]", "Only available <when above [800] [Bio matter]>", 
+    "New [Military] units start with [10] Experience [in this city]", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+	{
+		"name": "Military mind node",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "New [Military] units start with [10] Experience [in this city]", 
+    "All newly-trained [All] units [in this city] receive the [Combat algorythms] promotion", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+	{
+		"name": "Central military mind node",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
+    "New [Military] units start with [10] Experience [in this city]", 
+    "All newly-trained [All] units [in this city] receive the [Advanced combat algorythms] promotion", 
+    "Only available <if [Tech level 4] is constructed>", 
+    "Limited to [2] per Civilization"]
+	},
+	{
+		"name": "Bio walls",
+		"uniqueTo": "Bio-tech aliens",
+		"cityStrength": 10,
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [200] [Bio matter]", 
+    "Only available <when above [200] [Bio matter]>", 
+    "Only available <if [Tech level 1] is constructed>"]
+	},
+	{
+		"name": "Guards complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cityStrength": 25,
+		"cityHealth": 40,
+		"cost": 1,
+		"requiredBuilding": "Bio walls",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Defencive complex",
+		"uniqueTo": "Bio-tech aliens",
+		"cityStrength": 50,
+		"cityHealth": 80,
+		"cost": 1,
+		"requiredBuilding": "Guards complex",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1200] [Bio matter]", "Only available <when above [1200] [Bio matter]>", 
+    "Population loss from nuclear attacks [-100]% [in this city]", 
+    "Only available <if [Tech level 4] is constructed>"]
+	},
+
+
+
+
+//techs
+//levels
+	{
+		"name": "Tech level 1",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [50] [BTA science]", "Unbuildable <when below [50] [BTA science]>"]
+	},
+	{
+		"name": "Tech level 2",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Only available <if [Tech level 1] is constructed>"]
+	},
+	{
+		"name": "Tech level 3",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Tech level 4",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1500] [BTA science]>", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+	{
+		"name": "Tech level 5",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2500] [BTA science]>", 
+    "Only available <if [Tech level 4] is constructed>"]
+	},
+//unit types
+	{
+		"name": "Water tech",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Only available <if [Tech level 2] is constructed>", "Enables embarkation for land units", "Enables [All] units to enter ocean tiles"]
+	},
+	{
+		"name": "Siege tech",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Air tech",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Stealth tech",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+
+//bio cover
+	{
+		"name": "Military bio cover usage",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "[-10]% construction time for [Bio fortress] improvements", 
+    "[-10]% construction time for [Bio cannons] improvements", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Advanced military bio cover usage",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "[-50]% construction time for [Bio cover] improvements", 
+    "[-50]% construction time for [Experimental bio cover] improvements", 
+    "[-50]% construction time for [Bio cover expansion node] improvements", 
+    "[-20]% construction time for [Bio fortress] improvements", 
+    "[-20]% construction time for [Bio cannons] improvements", 
+    "[-10]% construction time for [Acid spores generator] improvements", 
+    "Only available <if [Tech level 3] is constructed>", 
+    "Only available <if [Military bio cover usage] is constructed>"]
+	},
+	{
+		"name": "Economical bio cover usage",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "[-20]% Culture cost of natural border growth [in all cities]", "+1 Bio matter from Bio cover tiles", "+1 Bio matter from Experimental bio cover tiles", 
+    "[-50]% construction time for [Bio cover] improvements", 
+    "[-50]% construction time for [Experimental bio cover] improvements", 
+    "[-10]% construction time for [Bio cover expansion node] improvements", 
+    "Only available <if [Tech level 2] is constructed>"]
+	},
+	{
+		"name": "Advanced economical bio cover usage",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
+    "[-10]% Culture cost of natural border growth [in all cities]", "+2 Bio matter from Bio cover tiles", "+1 BTA science from Experimental bio cover tiles", 
+    "[-10]% construction time for [Bio cover expansion node] improvements", 
+    "Only available <if [Tech level 3] is constructed>"]
+	},
+	{
+		"name": "Defensive bio cover usage",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"requiredBuilding": "Military bio cover usage",
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "[-10]% construction time for [Bio fortress] improvements", 
+    "[-10]% construction time for [Bio cannons] improvements", 
+    "[-10]% construction time for [Acid spores generator] improvements", 
+    "Enemy [Land] units must spend [1] extra movement points when inside your territory", 
+    "Only available <if [Tech level 4] is constructed>"]
+	},
+//human (allows normal game)
+	{
+		"name": "Human tech",
+		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
+    "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>"]
+	}
+]

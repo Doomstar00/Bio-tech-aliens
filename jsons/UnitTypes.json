@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Melee bug",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Ranged bug",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Scout bug",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Siege bug",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Mobile base bug",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Mobile base ranged bug",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Fighter bug",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "Can see over obstacles", "Can perform Air Sweep", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Flying bug",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", 
+        "All tiles cost 1 movement", "Ranged attacks may be performed over obstacles", 
+        "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
+        "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
+        "May travel on Water tiles without embarking", "Ignores Zone of Control", "Ignores terrain cost", "[+1] Sight <when [Embarked]>", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Flying ranged bug",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", 
+        "All tiles cost 1 movement", "Ranged attacks may be performed over obstacles", 
+        "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
+        "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
+        "May travel on Water tiles without embarking", "Ignores Zone of Control", "Ignores terrain cost", "[+1] Sight <when [Embarked]>", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Water melee bug",
+        "movementType": "Water",
+        "uniques": ["Can see invisible [Submarine] units", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Water ranged bug",
+        "movementType": "Water",
+        "uniques": ["Can see invisible [Submarine] units", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Submarine bug",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Bio-missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    },
+    {
+        "name": "Flying hive",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", 
+        "All tiles cost 1 movement", "Ranged attacks may be performed over obstacles", 
+        "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
+        "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
+        "May travel on Water tiles without embarking", "Ignores Zone of Control", "Ignores terrain cost", "[+1] Sight <when [Embarked]>", 
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    }
+]

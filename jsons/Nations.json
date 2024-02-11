@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Bio-tech aliens",
+		"leaderName": "Hive Mind",
+		"adjective": ["alien"],
+		
+		"startIntroPart1": "Распростроняйте биопокрытие и воспроизведите технологию людей!",
+		
+		"declaringWar": "ВЫ БУДЕТЕ ПОГЛОЩЕННЫ!!!",
+		"attacked": "ВЫ БУДЕТЕ ПОГЛОЩЕННЫ!!!",
+		"defeated": "Они сильнее...",
+		"introduction": "Приветствуем,.. земляне.. [неизвестно] нам нужна.. биомасса.. и понимание..",
+		
+		"neutralHello": "Вы.. источник.. знаний?",
+		"hateHello": "Вы.. источник.. биомассы?",
+		"tradeRequest": "Вы.. согласны.. обмен?..",
+
+		"outerColor": [0,0,0],
+		"innerColor": [127,0,255],
+
+		"uniqueName": "Биотехнологии",
+		"uniques": ["[-100]% Unhappiness from [Population] [in all non-occupied cities]", "[-100]% unhappiness from the number of cities <in [Non-occupied] cities>", 
+    "[-90]% growth [in all cities]", "[-100]% [Culture]", "[-100]% [Science]", "[-100]% [Gold]", "[-100]% [Production]", 
+    "[+90]% growth [in all cities] <if [Human tech] is constructed>", 
+    "[+100]% [Culture] <if [Human tech] is constructed>", "[+100]% [Science] <if [Human tech] is constructed>", 
+    "[+100]% [Gold] <if [Human tech] is constructed>", "[+100]% [Production] <if [Human tech] is constructed>", 
+    "[Land] units gain the [Biocover usage] promotion",
+    "Gain a free [Bio cover usage] [in all cities]", 
+    "[-25]% Production when constructing [All] buildings [in all cities]", 
+    "[+25]% Production when constructing [All] buildings [in capital]", 
+    "[+25]% Production towards any buildings that already exist in the Capital", 
+    "[-50]% Production when constructing [All] wonders [in all cities]", 
+    "[+100]% Production when constructing [All] wonders [in capital]", 
+    "Enables conversion of city production to [Culture]", "Production to [Culture] conversion in cities changed by [+50]%"], 
+    "cities": ["Hive", "Nest", "Infestation", "Lair"]
+	}
+]

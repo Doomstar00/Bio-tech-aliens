@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Bio matter",
+		"uniqueTo": "Bio-tech aliens",
+		"resourceType": "Strategic",
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"],
+	},
+	{
+		"name": "BTA science",
+		"uniqueTo": "Bio-tech aliens",
+		"resourceType": "Strategic",
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"],
+	}
+]
