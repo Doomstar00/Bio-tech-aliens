@@ -10,7 +10,8 @@
     "Can build [Land] improvements on tiles <if [Human tech] is constructed>", "Automation is a primary action", 
     "Can build [Bio cover] improvements on tiles", 
     "Can build [Experimental bio cover] improvements on tiles", 
-    "Can build [Bio fortress] improvements on tiles"]
+    "Can build [Bio fortress] improvements on tiles", 
+    "[-100]% maintenance costs"]
     },
     {
         "name": "Biocover expander bug",
@@ -27,7 +28,8 @@
         "Can instantly construct a [Experimental bio cover] improvement", 
         "Can build [Bio fortress] improvements on tiles", 
         "Can build [Bio cannons] improvements on tiles", 
-        "Can build [Acid spores generator] improvements on tiles"]
+        "Can build [Acid spores generator] improvements on tiles", 
+    "[-100]% maintenance costs"]
     },
     {
         "name": "Settler bug",
@@ -37,7 +39,8 @@
         "cost": 1,
         "uniques": ["Uncapturable", "Cannot be purchased", 
         "Instantly consumes [120] [Bio matter]", "Unbuildable <when below [120] [Bio matter]>", 
-        "Founds a new city <by consuming this unit>"]
+        "Founds a new city <by consuming this unit>", 
+    "[-100]% maintenance costs"]
     },
     {
         "name": "Scary bug",
@@ -56,7 +59,8 @@
         "Takes your religion over the one in their birth city", 
         "Prevents spreading of religion to the city it is next to",
         "Can remove other religions from cities <in [your] tiles>",
-        "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",],
+        "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
+    "[-100]% maintenance costs"],
         "religiousStrength": 750
     },
 
@@ -798,7 +802,8 @@
     "[+50]% Strength <vs cities>", "[+50]% Strength <vs cities> <if [Tech level 4] is constructed>", "[+50]% Strength <vs cities> <if [Tech level 5] is constructed>", 
     "[+50]% Strength <if [Tech level 4] is constructed>", "[+50]% Strength <if [Tech level 5] is constructed>", 
     "Only available <if [Tech level 3] is constructed>", 
-    "Only available <if [Air tech] is constructed>"],
+    "Only available <if [Air tech] is constructed>", 
+    "[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
 	{
@@ -814,7 +819,8 @@
     "Instantly consumes [1000] [Bio matter]", "Unbuildable <when below [1000] [Bio matter]>", 
     "Nuclear weapon of Strength [2]", "Blast radius [1]", 
     "Only available <if [Tech level 4] is constructed>", 
-    "Only available <if [Air tech] is constructed>"],
+    "Only available <if [Air tech] is constructed>", 
+    "[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
 	{
@@ -830,7 +836,8 @@
     "Instantly consumes [2500] [Bio matter]", "Unbuildable <when below [2500] [Bio matter]>", 
     "Nuclear weapon of Strength [5]", "Blast radius [3]", 
     "Only available <if [Tech level 5] is constructed>", 
-    "Only available <if [Air tech] is constructed>"],
+    "Only available <if [Air tech] is constructed>", 
+    "[-100]% maintenance costs"],
 		"attackSound": "nuke"
 	}
 ]
