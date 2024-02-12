@@ -46,6 +46,7 @@
         "cost": 1,
         "movement": 2,
         "uniques": [
+        "Instantly consumes [200] [Bio matter]", "Unbuildable <when below [200] [Bio matter]>", 
         "Can Spread Religion <for [2] movement> <[3] times> <after which this unit is consumed>",
         "Removes other religions when spreading religion",
         "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
