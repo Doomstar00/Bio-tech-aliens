@@ -347,7 +347,7 @@
     "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
     "[-50]% construction time for [Bio cover] improvements", 
     "[-50]% construction time for [Experimental bio cover] improvements", 
-    "[-50]% construction time for [Bio cover expansion node] improvements", 
+    "[-40]% construction time for [Bio cover expansion node] improvements", 
     "[-20]% construction time for [Bio fortress] improvements", 
     "[-20]% construction time for [Bio cannons] improvements", 
     "[-10]% construction time for [Acid spores generator] improvements", 
@@ -375,8 +375,9 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [400] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
     "[-10]% Culture cost of natural border growth [in all cities]", "+2 Bio matter from Bio cover tiles", "+1 BTA science from Experimental bio cover tiles", 
-    "[-10]% construction time for [Bio cover expansion node] improvements", 
-    "Only available <if [Tech level 3] is constructed>"]
+    "[-20]% construction time for [Bio cover expansion node] improvements", 
+    "Only available <if [Tech level 3] is constructed>", 
+    "Only available <if [Economical bio cover usage] is constructed>"]
 	},
 	{
 		"name": "Defensive bio cover usage",
