@@ -258,7 +258,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [400] [BTA science]>", 
     "Only available <if [Tech level 1] is constructed>"]
 	},
 	{
@@ -267,7 +267,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -276,7 +276,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1500] [BTA science]>", 
+    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
 	{
@@ -285,7 +285,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2500] [BTA science]>", 
+    "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2000] [BTA science]>", 
     "Only available <if [Tech level 4] is constructed>"]
 	},
 //unit types
@@ -295,7 +295,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [400] [BTA science]>", 
     "Only available <if [Tech level 2] is constructed>", "Enables embarkation for land units", "Enables [All] units to enter ocean tiles"]
 	},
 	{
@@ -304,7 +304,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [400] [BTA science]>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -313,7 +313,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [600] [BTA science]", "Unbuildable <when below [600] [BTA science]>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -322,7 +322,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [600] [BTA science]", "Unbuildable <when below [600] [BTA science]>", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
 
@@ -333,7 +333,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [400] [BTA science]>", 
     "[-10]% construction time for [Bio fortress] improvements", 
     "[-10]% construction time for [Bio cannons] improvements", 
     "Only available <if [Tech level 2] is constructed>"]
@@ -344,7 +344,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", 
     "[-50]% construction time for [Bio cover] improvements", 
     "[-50]% construction time for [Experimental bio cover] improvements", 
     "[-40]% construction time for [Bio cover expansion node] improvements", 
@@ -360,7 +360,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [400] [BTA science]>", 
     "[-20]% Culture cost of natural border growth [in all cities]", "+1 Bio matter from Bio cover tiles", "+1 Bio matter from Experimental bio cover tiles", 
     "[-50]% construction time for [Bio cover] improvements", 
     "[-50]% construction time for [Experimental bio cover] improvements", 
@@ -373,7 +373,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", 
     "[-10]% Culture cost of natural border growth [in all cities]", "+2 Bio matter from Bio cover tiles", "+1 BTA science from Experimental bio cover tiles", 
     "[-20]% construction time for [Bio cover expansion node] improvements", 
     "Only available <if [Tech level 3] is constructed>", 
@@ -386,7 +386,7 @@
 		"cost": 1,
 		"requiredBuilding": "Military bio cover usage",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", 
     "[-10]% construction time for [Bio fortress] improvements", 
     "[-10]% construction time for [Bio cannons] improvements", 
     "[-10]% construction time for [Acid spores generator] improvements", 
@@ -400,6 +400,6 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>"]
+    "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2000] [BTA science]>"]
 	}
 ]
