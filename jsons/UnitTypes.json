@@ -33,7 +33,7 @@
         "name": "Fighter bug",
         "movementType": "Air",
         "uniques": ["Aircraft", "Can see over obstacles", "Can perform Air Sweep", 
-    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading", "May heal outside of friendly territory"]
     },
     {
         "name": "Flying bug",
@@ -43,7 +43,7 @@
         "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
         "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
         "May travel on Water tiles without embarking", "Ignores Zone of Control", "Ignores terrain cost", "[+1] Sight <when [Embarked]>", 
-    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading", "May heal outside of friendly territory"]
     },
     {
         "name": "Flying ranged bug",
@@ -53,7 +53,7 @@
         "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
         "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
         "May travel on Water tiles without embarking", "Ignores Zone of Control", "Ignores terrain cost", "[+1] Sight <when [Embarked]>", 
-    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading", "May heal outside of friendly territory"]
     },
     {
         "name": "Water melee bug",
@@ -87,6 +87,6 @@
         "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
         "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
         "May travel on Water tiles without embarking", "Ignores Zone of Control", "Ignores terrain cost", "[+1] Sight <when [Embarked]>", 
-    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading"]
+    "[-100]% maintenance costs", "[-100]% Gold cost of upgrading", "May heal outside of friendly territory"]
     }
 ]
