@@ -94,7 +94,7 @@
 		"happiness": -1,
 		"science": -1,
     "culture": -1,
-		"turnsToBuild": 12,
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Does not need removal of [All]", "Gives a defensive bonus of [-50]%", "Tile provides yield without assigned population", 
     "Can be built outside your borders", "Removes removable features when built", "Unpillagable", "biocover", 
