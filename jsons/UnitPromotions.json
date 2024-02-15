@@ -3,6 +3,7 @@
     "name": "Biocover usage",
 		"uniques": ["[+10]% Strength <when fighting in [biocover] tiles> <when defending>", 
     "[+90]% Strength <when fighting in [Bio fortress] tiles> <when defending>", 
+    "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking>", 
     "[+40]% Strength <when fighting in [Acid spores generator] tiles> <when defending>", 
     "[+10]% Strength <when fighting in [biocover] tiles>", 
     "[+40]% Strength <when fighting in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
@@ -10,7 +11,6 @@
     "[+50]% Strength <when fighting in [biocover] tiles> <if [Advanced military bio cover usage] is constructed>", 
     "[+2] Movement <in [biocover] tiles> <if [Advanced military bio cover usage] is constructed>", 
     "[+50]% Strength <when fighting in [Bio fortress] tiles> <when defending> <if [Advanced military bio cover usage] is constructed>", 
-    "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking> <if [Advanced military bio cover usage] is constructed>", 
     "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking> <if [Advanced military bio cover usage] is constructed>"]
 	},
   {
