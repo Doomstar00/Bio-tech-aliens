@@ -12,7 +12,8 @@
 		"introduction": "Приветствуем,.. земляне.. [неизвестно] нам нужна.. биомасса.. и понимание..",
 		
 		"neutralHello": "Вы.. источник.. знаний?",
-		"hateHello": "Вы.. источник.. биомассы?",
+		"hateHello": "Вы.. источник.. биомассы?",
+
 		"tradeRequest": "Вы.. согласны.. обмен?..",
 
 		"outerColor": [0,0,0],
@@ -31,7 +32,8 @@
     "[+25]% Production towards any buildings that already exist in the Capital", 
     "[-50]% Production when constructing [All] wonders [in all cities]", 
     "[+100]% Production when constructing [All] wonders [in capital]", 
-    "Enables conversion of city production to [Culture]", "Production to [Culture] conversion in cities changed by [+50]%"], 
+    "Enables conversion of city production to [Culture]", "Production to [Culture] conversion in cities changed by [+50]%", 
+    "[-100]% maintenance on road & railroads", "[+100]% maintenance on road & railroads <if [Human tech] is constructed>"], 
     "cities": ["Hive", "Nest", "Infestation", "Lair"]
 	}
 ]
