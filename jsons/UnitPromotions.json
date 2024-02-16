@@ -91,7 +91,7 @@
     "name": "BTARange",
     "prerequisites": ["BTA Weapons upgrade II", "Carpace upgrade II"],
     "uniques": ["[+1] Range"],
-    "unitTypes": ["Ranged bug", "Siege bug", "Water ranged bug", "Submarine bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
+    "unitTypes": ["Ranged bug", "Siege bug", "Water ranged bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
     "name": "BTASight",
