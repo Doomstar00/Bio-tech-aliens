@@ -78,7 +78,7 @@
   {
     "name": "Regeneration",
     "prerequisites": ["BTA Weapons upgrade II", "Carpace upgrade II"],
-    "uniques": ["Unit will heal every turn, even if it performs an action", "[+5] HP when healing"],
+    "uniques": ["Unit will heal every turn, even if it performs an action", "[+5] HP when healing", "May heal outside of friendly territory"],
     "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
