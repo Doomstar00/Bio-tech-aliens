@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Prototype ranged bug",
-		"unitType": "Melee bug",
+		"unitType": "Ranged bug",
 		"uniqueTo": "Bio-tech aliens",
 		//"upgradesTo": "Ranged bug",
 		"movement": 2,
@@ -136,7 +136,7 @@
 	},
 	{
 		"name": "Ranged bug",
-		"unitType": "Melee bug",
+		"unitType": "Ranged bug",
 		"uniqueTo": "Bio-tech aliens",
 		//"upgradesTo": "Advanced ranged bug",
 		"movement": 2,
@@ -289,7 +289,7 @@
 	},
 	{
 		"name": "Advanced ranged bug",
-		"unitType": "Melee bug",
+		"unitType": "Ranged bug",
 		"uniqueTo": "Bio-tech aliens",
 		//"upgradesTo": "Huge ranged bug",
 		"movement": 2,
@@ -445,7 +445,7 @@
 	},
 	{
 		"name": "Huge ranged bug",
-		"unitType": "Melee bug",
+		"unitType": "Ranged bug",
 		"uniqueTo": "Bio-tech aliens",
 		//"upgradesTo": "Huge ranged bug",
 		"movement": 2,
@@ -602,7 +602,7 @@
 	},
 	{
 		"name": "Space ranged bug",
-		"unitType": "Melee bug",
+		"unitType": "Ranged bug",
 		"uniqueTo": "Bio-tech aliens",
 		"movement": 2,
 		"strength": 80,
