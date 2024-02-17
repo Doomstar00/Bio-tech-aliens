@@ -48,7 +48,7 @@
         "uniqueTo": "Bio-tech aliens",
         "cost": 1,
         "movement": 2,
-        "uniques": [
+        "uniques": ["Uncapturable", "Cannot be purchased", 
         "Instantly consumes [300] [Bio matter]", "Unbuildable <when below [300] [Bio matter]>", 
         "Can Spread Religion <for [2] movement> <[1] times> <after which this unit is consumed>",
         "Removes other religions when spreading religion",
