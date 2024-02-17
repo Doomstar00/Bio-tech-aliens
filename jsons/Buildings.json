@@ -157,7 +157,7 @@
 		"requiredBuilding": "Brain node",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
-    "Provides [5] [BTA science] <with [Bio matter]>", "Consumes [20] [Bio matter]", 
+    "Provides [5] [BTA science] <with [Bio matter]>", "Consumes [10] [Bio matter]", 
     "[+5 Culture, +4 Science] <if [Human tech] is constructed>", 
     "Only available <if [Tech level 2] is constructed>", 
     "Limited to [3] per Civilization"]
