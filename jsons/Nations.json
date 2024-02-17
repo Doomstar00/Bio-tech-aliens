@@ -20,7 +20,7 @@
 		"innerColor": [127,0,255],
 
 		"uniqueName": "Биотехнологии",
-		"uniques": ["[-100]% Unhappiness from [Population] [in all non-occupied cities]", "[-100]% unhappiness from the number of cities <in [in all non-occupied cities] cities>", 
+		"uniques": ["[-100]% Unhappiness from [Population] [in all non-occupied cities]", "[-100]% unhappiness from the number of cities", 
     "[-90]% growth [in all cities]", "[-100]% [Culture]", "[-100]% [Science]", "[-100]% [Gold]", "[-100]% [Production]", 
     "[+90]% growth [in all cities] <if [Human tech] is constructed>", 
     "[+100]% [Culture] <if [Human tech] is constructed>", "[+100]% [Science] <if [Human tech] is constructed>", 
