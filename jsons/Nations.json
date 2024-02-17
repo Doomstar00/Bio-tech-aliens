@@ -27,13 +27,13 @@
     "[+100]% [Gold] <if [Human tech] is constructed>", "[+100]% [Production] <if [Human tech] is constructed>", 
     "[Land] units gain the [Biocover usage] promotion",
     "Gain a free [Bio cover usage] [in all cities]", 
-    "[-25]% Production when constructing [All] buildings [in all cities]", 
-    "[+25]% Production when constructing [All] buildings [in capital]", 
-    "[+25]% Production towards any buildings that already exist in the Capital", 
-    "[-50]% Production when constructing [All] wonders [in all cities]", 
-    "[+100]% Production when constructing [All] wonders [in capital]", 
+    "[-25]% Production when constructing [All] buildings [in all cities] <if [Human tech] is constructed>", 
+    "[+25]% Production when constructing [All] buildings [in capital] <if [Human tech] is constructed>", 
+    "[+25]% Production towards any buildings that already exist in the Capital <if [Human tech] is constructed>", 
+    "[-50]% Production when constructing [All] wonders [in all cities] <if [Human tech] is constructed>", 
+    "[+100]% Production when constructing [All] wonders [in capital] <if [Human tech] is constructed>", 
     "Enables conversion of city production to [Culture]", "Production to [Culture] conversion in cities changed by [+50]%", 
     "[-100]% maintenance on road & railroads", "[+100]% maintenance on road & railroads <if [Human tech] is constructed>"], 
-    "cities": ["Hive", "Nest", "Infestation", "Lair"]
+    "cities": ["Hive", "Nest", "Infestation", "Lair", "Node"]
 	}
 ]
