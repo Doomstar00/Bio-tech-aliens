@@ -2,16 +2,16 @@
 	{
 		"name": "Hive Mind Brain",
 		"uniqueTo": "Bio-tech aliens",
-		"isNationalWonder": true,
+		//"isNationalWonder": true,
 		"production": 5,
 		"cost": 0,
-		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", 
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Indicates the capital city", "Limited to [1] per Civilization", //"Can only be built [in capital]", 
     "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", "Instantly provides [50] [Bio matter]", 
     "[+20 Culture, +20 Science, +20 Gold, +15 Production] <if [Human tech] is constructed>", 
     "Provides [5] [Bio matter]<if [Tech level 3] is constructed>", "Provides [5] [BTA science]<if [Tech level 3] is constructed>", 
     "Provides [10] [Bio matter]<if [Tech level 4] is constructed>", "Provides [10] [BTA science]<if [Tech level 4] is constructed>", 
     "Provides [15] [Bio matter]<if [Tech level 5] is constructed>", "Provides [15] [BTA science]<if [Tech level 5] is constructed>", 
-    "[10] Unit Supply per city", "[10] Unit Supply"]
+    "[10] Unit Supply per city"]
 	},
 	{
 		"name": "Bio cover usage",
