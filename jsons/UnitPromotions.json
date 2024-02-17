@@ -3,7 +3,7 @@
     "name": "Biocover usage",
 		"uniques": ["[+10]% Strength <when fighting in [biocover] tiles> <when defending>", 
     "[+90]% Strength <when fighting in [Bio fortress] tiles> <when defending>", 
-    "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking>", 
+    "[+50]% Strength <in [Bio cannons] tiles> <when attacking>", 
     "[+40]% Strength <when fighting in [Acid spores generator] tiles> <when defending>", 
     "[+10]% Strength <when fighting in [biocover] tiles>", 
     "Ignores terrain cost <in [biocover] tiles>", 
