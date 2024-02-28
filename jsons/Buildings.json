@@ -6,12 +6,17 @@
 		"production": 5,
 		"cost": 0,
 		"cityStrength": 5,
-		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", //"Limited to [1] per Civilization", 
-    "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", "Instantly provides [50] [Bio matter]", 
-    "[+20 Culture, +20 Science, +20 Gold, +15 Production] <if [Human tech] is constructed>", 
-    "Provides [5] [Bio matter]<if [Tech level 3] is constructed>", "Provides [5] [BTA science]<if [Tech level 3] is constructed>", 
-    "Provides [10] [Bio matter]<if [Tech level 4] is constructed>", "Provides [10] [BTA science]<if [Tech level 4] is constructed>", 
-    "Provides [15] [Bio matter]<if [Tech level 5] is constructed>", "Provides [15] [BTA science]<if [Tech level 5] is constructed>", 
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", 
+    "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", 
+    "Instantly provides [50] [Bio matter]", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 1] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 2] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 3] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 4] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 5] is constructed>", 
+    "Provides [5] [Bio matter] <if [Tech level 3] is constructed>", "Provides [5] [BTA science] <if [Tech level 3] is constructed>", 
+    "Provides [10] [Bio matter] <if [Tech level 4] is constructed>", "Provides [10] [BTA science] <if [Tech level 4] is constructed>", 
+    "Provides [15] [Bio matter] <if [Tech level 5] is constructed>", "Provides [15] [BTA science] <if [Tech level 5] is constructed>", 
     "[10] Unit Supply per city"]
 	},
 	{
@@ -20,11 +25,11 @@
 		"cost": 0,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cover] tiles [in this city]", 
-    "[+2 Food, +2 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+2 Food, +3 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover] tiles [in this city] <if [Human tech] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Experimental bio cover] tiles [in this city]", 
     "[+1 Food, +1 Production, +1 Gold, +3 Science, +2 Culture] from [Experimental bio cover] tiles [in this city] <if [Human tech] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city]", 
-    "[+2 Food, +2 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+2 Food, +3 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city] <if [Human tech] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio fortress] tiles [in this city]", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cannons] tiles [in this city]", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Acid spores generator] tiles [in this city]", 
@@ -259,7 +264,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
+    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", 
     "Only available <if [Tech level 1] is constructed>"]
 	},
 	{
@@ -268,7 +273,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2000] [BTA science]>", 
+    "Instantly consumes [2400] [BTA science]", "Unbuildable <when below [2400] [BTA science]>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -277,7 +282,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [3000] [BTA science]", "Unbuildable <when below [3000] [BTA science]>", 
+    "Instantly consumes [3600] [BTA science]", "Unbuildable <when below [3600] [BTA science]>", 
     "Only available <if [Tech level 3] is constructed>", 
     "Only available <if [Water tech] is constructed>", 
     "Only available <if [Siege tech] is constructed>"]
@@ -288,7 +293,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [4000] [BTA science]", "Unbuildable <when below [4000] [BTA science]>", 
+    "Instantly consumes [5000] [BTA science]", "Unbuildable <when below [5000] [BTA science]>", 
     "Only available <if [Tech level 4] is constructed>", 
     "Only available <if [Air tech] is constructed>", 
     "Only available <if [Stealth tech] is constructed>"]
