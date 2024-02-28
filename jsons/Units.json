@@ -284,7 +284,9 @@
     "Cannot attack", 
     "Can build [Bio cover expansion node] improvements on tiles", 
     "Can instantly construct a [Bio cover] improvement", 
-    "Can instantly construct a [Experimental bio cover] improvement", ],
+    "Can instantly construct a [Experimental bio cover] improvement", 
+	"[+10]% Strength bonus for [All] units within [3] tiles", 
+	"All adjacent units heal [+10] HP when healing"],
     "attackSound": "nonmetalhit"
 	},
 	{
