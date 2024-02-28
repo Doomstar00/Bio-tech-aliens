@@ -292,15 +292,15 @@
 		"unitType": "Ranged bug",
 		"uniqueTo": "Bio-tech aliens",
 		"movement": 2,
-		"strength": 10,
-		"rangedStrength": 14,
+		"strength": 8,
+		"rangedStrength": 12,
 		"range": 2,
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [200] [Bio matter]", "Unbuildable <when below [200] [Bio matter]>", 
     "When defeating a [All] unit, earn [0] Gold and recruit it <with [25]% chance>", 
     "Only available <if [Tech level 2] is constructed>", 
-    //"Unavailable <if [Tech level 4] is constructed>"
+    "Unavailable <if [Tech level 4] is constructed>"
     ],
     "attackSound": "arrow"
 	},
@@ -458,6 +458,23 @@
     "Only available <if [Water tech] is constructed>"],
     "attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Infector bug",
+		"unitType": "Ranged bug",
+		"uniqueTo": "Bio-tech aliens",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"range": 2,
+		"cost": 1,
+		"uniques": ["Uncapturable", "Cannot be purchased", 
+    "Instantly consumes [450] [Bio matter]", "Unbuildable <when below [450] [Bio matter]>", 
+    "When defeating a [All] unit, earn [0] Gold and recruit it <with [50]% chance>", 
+    "Only available <if [Tech level 3] is constructed>", 
+    "Unavailable <if [Tech level 5] is constructed>"
+    ],
+    "attackSound": "arrow"
+	},
 
 
 
@@ -614,7 +631,23 @@
     "Only available <if [Water tech] is constructed>", 
     "Only available <if [Stealth tech] is constructed>"],
     "attackSound": "nonmetalhit"
-	}
+	},
+	{
+		"name": "Advanced infector bug",
+		"unitType": "Ranged bug",
+		"uniqueTo": "Bio-tech aliens",
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 50,
+		"range": 2,
+		"cost": 1,
+		"uniques": ["Uncapturable", "Cannot be purchased", 
+    "Instantly consumes [850] [Bio matter]", "Unbuildable <when below [850] [Bio matter]>", 
+    "When defeating a [All] unit, earn [0] Gold and recruit it <with [75]% chance>", 
+    "Only available <if [Tech level 4] is constructed>"
+    ],
+    "attackSound": "arrow"
+	},
 
 
 
@@ -764,6 +797,22 @@
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Stealth tech] is constructed>", 
     "Only available <if [Water tech] is constructed>"],
+    "attackSound": "arrow"
+	},
+	{
+		"name": "Space infector bug",
+		"unitType": "Ranged bug",
+		"uniqueTo": "Bio-tech aliens",
+		"movement": 2,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 2,
+		"cost": 1,
+		"uniques": ["Uncapturable", "Cannot be purchased", 
+    "Instantly consumes [1200] [Bio matter]", "Unbuildable <when below [1200] [Bio matter]>", 
+    "When defeating a [All] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+    "Only available <if [Tech level 5] is constructed>"
+    ],
     "attackSound": "arrow"
 	},
 
