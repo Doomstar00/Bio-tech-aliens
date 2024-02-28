@@ -63,6 +63,24 @@
     "[-100]% maintenance costs"],
         "religiousStrength": 100
     },
+    {
+        "name": "City administrator bug",
+        "unitType": "Civilian",
+        "uniqueTo": "Bio-tech aliens",
+        "cost": 1,
+        "movement": 10,
+        "uniques": ["Uncapturable", "Cannot be purchased", 
+        "Instantly consumes [1000] [Bio matter]", "Unbuildable <when below [1000] [Bio matter]>", 
+    "Instantly consumes [200] [BTA science]", "Unbuildable <when below [200] [BTA science]>", 
+	"[-10]% Strength for enemy [All] units in adjacent [All] tiles", 
+        "Prevents spreading of religion to the city it is next to", "[+2] Sight", 
+        "Can remove other religions from cities <in [your] tiles>",
+	"[+10]% Strength bonus for [All] units within [3] tiles", 
+	"All adjacent units heal [+10] HP when healing", "Cannot move", 
+	"Transfer Movement to [All]", 
+    "[-100]% maintenance costs"],
+        "religiousStrength": 100
+    },
 
 
 
@@ -279,6 +297,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [200] [Bio matter]", "Unbuildable <when below [200] [Bio matter]>", 
+    "When defeating a [All] unit, earn [0] Gold and recruit it <with [25]% chance>", 
     "Only available <if [Tech level 2] is constructed>", 
     //"Unavailable <if [Tech level 4] is constructed>"
     ],
