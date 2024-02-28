@@ -38,7 +38,7 @@
         "movement": 2,
         "cost": 1,
         "uniques": ["Uncapturable", "Cannot be purchased", 
-        "Instantly consumes [120] [Bio matter]", "Unbuildable <when below [120] [Bio matter]>", 
+        "Instantly consumes [200] [Bio matter]", "Unbuildable <when below [200] [Bio matter]>", 
         "Founds a new city <by consuming this unit>", 
     "[-100]% maintenance costs"]
     },
@@ -54,7 +54,7 @@
         "Removes other religions when spreading religion",
         "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
         "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-        "May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+        "May enter foreign tiles without open borders", "[-1] Sight", 
         "Religious Unit","[-10]% Strength for enemy [All] units in adjacent [All] tiles", 
         "Takes your religion over the one in their birth city", 
         "Prevents spreading of religion to the city it is next to",
@@ -249,7 +249,6 @@
     "Only available <if [Water tech] is constructed>"],
     "attackSound": "nonmetalhit"
 	},
-/*
 	{
 		"name": "Prototype mobile hive",
 		"unitType": "Mobile base bug",
@@ -261,13 +260,31 @@
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [400] [Bio matter]", "Unbuildable <when below [400] [Bio matter]>", 
     "Only available <if [Tech level 2] is constructed>", 
-    "Unavailable <if [Tech level 4] is constructed>", 
-    "Free [Prototype melee bug] appears <every [1] turns> <upon turn end>", // <with [1] to [6] neighboring [Land] tiles> <in [Land] tiles> <when above [50] HP>
-    "Provides military units every [1] turns", 
-    "Cannot attack", "Can instantly construct a [Bio cover] improvement"],
+    //"Unavailable <if [Tech level 4] is constructed>", 
+    "Free [Prototype melee bug] appears <every [1] turns> <upon ending a turn in a [All] tile> <with [1] to [6] neighboring [Land] tiles> <in [Land] tiles> <when above [50] HP>", 
+    "Cannot attack", 
+    "Can build [Bio cover expansion node] improvements on tiles", 
+    "Can instantly construct a [Bio cover] improvement", 
+    "Can instantly construct a [Experimental bio cover] improvement", ],
     "attackSound": "nonmetalhit"
 	},
-*/
+	{
+		"name": "Prototype infector bug",
+		"unitType": "Ranged bug",
+		"uniqueTo": "Bio-tech aliens",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 14,
+		"range": 2,
+		"cost": 1,
+		"uniques": ["Uncapturable", "Cannot be purchased", 
+    "Instantly consumes [200] [Bio matter]", "Unbuildable <when below [200] [Bio matter]>", 
+    "Only available <if [Tech level 2] is constructed>", 
+    //"Unavailable <if [Tech level 4] is constructed>"
+    ],
+    "attackSound": "arrow"
+	},
+
 
 
 
