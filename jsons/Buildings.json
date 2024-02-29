@@ -411,7 +411,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
-    "Unbuildable <when below [20] [BTA human tech]>"]
+    "Unbuildable <when below [5] [BTA human tech]>"]
 	}, 
 	{
 		"name": "BTA human player",//this mean "not alien", not "not ai"
@@ -420,7 +420,7 @@
 		"uniques": [
     //"Destroyed when the city is captured", 
     "Can only be built [in capital]", 
-    "Provides [20] [BTA human tech]", 
-    "Unavailable <for [Bio-tech aliens]>"]
+    "Provides [5] [BTA human tech]", 
+    "Unbuildable <for [Bio-tech aliens]>"]
 	}
 ]
