@@ -835,6 +835,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", "Unbuildable", "Cannot be carried by [City] units", "Can see invisible [All] units", 
     "[+6] Sight", "[100]% chance to intercept air attacks", "[+100]% Strength <vs [Air] units>", "[+100]% Strength <vs cities>", "[+50]% Strength <when attacking>"],
+    "promotions": ["Combat algorythms", "Advanced combat algorythms"],
     "attackSound": "jetgun"
 	},
 	{
@@ -856,6 +857,7 @@
     "[1] extra interceptions may be made per turn", 
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Air tech] is constructed>"],
+    "promotions": ["Combat algorythms"],
     "attackSound": "arrow"
 	},
 	{
@@ -879,6 +881,7 @@
     "[1] additional attacks per turn", "Limited to [1] per Civilization", 
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Air tech] is constructed>"],
+    "promotions": ["Combat algorythms", "Advanced combat algorythms"],
     "attackSound": "arrow"
 	},
 
