@@ -9,11 +9,14 @@
     "Ignores terrain cost <in [biocover] tiles>", 
     "[+40]% Strength <when fighting in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
     "[+1] Movement <in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
+    "[+1] Movement <in [City center] tiles> <if [Military bio cover usage] is constructed>", 
     "[+50]% Strength <when fighting in [biocover] tiles> <if [Advanced military bio cover usage] is constructed>", 
     "[+2] Movement <in [biocover] tiles> <if [Advanced military bio cover usage] is constructed>", 
+    "[+2] Movement <in [City center] tiles> <if [Advanced military bio cover usage] is constructed>", 
     "[+50]% Strength <when fighting in [Bio fortress] tiles> <when defending> <if [Advanced military bio cover usage] is constructed>", 
     "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking> <if [Advanced military bio cover usage] is constructed>", 
-    "[+5] HP when healing <in [biocover] tiles> <if [Military bio cover usage] is constructed>"]
+    "[+5] HP when healing <in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
+    "[+5] HP when healing <in [City center] tiles> <if [Military bio cover usage] is constructed>"]]
 	},
   {
     "name": "BTA Heal Instantly",
