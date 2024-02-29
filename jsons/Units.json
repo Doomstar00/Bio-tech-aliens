@@ -300,7 +300,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [200] [Bio matter]", "Unbuildable <when below [200] [Bio matter]>", 
-    "When defeating a [All] unit, earn [0] Gold and recruit it <with [25]% chance>", 
+    "May capture killed [All] units <with [25]% chance>", 
     "Only available <if [Tech level 2] is constructed>", 
     "Unavailable <if [Tech level 4] is constructed>"
     ],
@@ -471,7 +471,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [450] [Bio matter]", "Unbuildable <when below [450] [Bio matter]>", 
-    "When defeating a [All] unit, earn [0] Gold and recruit it <with [50]% chance>", 
+    "May capture killed [All] units <with [50]% chance>", 
     "Only available <if [Tech level 3] is constructed>", 
     "Unavailable <if [Tech level 5] is constructed>"
     ],
@@ -645,7 +645,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [850] [Bio matter]", "Unbuildable <when below [850] [Bio matter]>", 
-    "When defeating a [All] unit, earn [0] Gold and recruit it <with [75]% chance>", 
+    "May capture killed [All] units <with [75]% chance>", 
     "Only available <if [Tech level 4] is constructed>"
     ],
     "attackSound": "arrow"
@@ -813,7 +813,7 @@
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [1200] [Bio matter]", "Unbuildable <when below [1200] [Bio matter]>", 
     "Instantly consumes [250] [BTA science]", "Unbuildable <when below [250] [BTA science]>", 
-    "When defeating a [All] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+    "May capture killed [All] units <with [100]% chance>", 
     "Only available <if [Tech level 5] is constructed>"
     ],
     "attackSound": "arrow"
