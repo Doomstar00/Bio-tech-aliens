@@ -1,6 +1,7 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-    
+    "Provides [5] [BTA human tech]", 
+    "Provides [-5] [BTA human tech] <for [Bio-tech aliens]>"
 	]
 }
