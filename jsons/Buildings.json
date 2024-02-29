@@ -410,6 +410,17 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
-    "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2000] [BTA science]>"]
+    "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
+    "Unbuildable <when below [20] [BTA human tech]>"]
+	}, 
+	{
+		"name": "BTA human player",//this mean "not alien", not "not ai"
+		"isNationalWonder": true,
+		"cost": 0,
+		"uniques": [
+    //"Destroyed when the city is captured", 
+    "Can only be built [in capital]", 
+    "Provides [20] [BTA human tech]", 
+    "Unavailable <for [Bio-tech aliens]>"]
 	}
 ]
