@@ -10,5 +10,10 @@
 		"uniqueTo": "Bio-tech aliens",
 		"resourceType": "Strategic",
 		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"],
+	},
+	{
+		"name": "BTA human tech",
+		"resourceType": "Strategic",
+		"uniques": ["Excluded from map editor"],
 	}
 ]
