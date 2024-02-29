@@ -168,7 +168,7 @@
     "Limited to [3] per Civilization"]
 	},
 	{
-		"name": "Incubator",
+		"name": "Hatchery",
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
 		"requiredBuilding": "Bio matter generator",
