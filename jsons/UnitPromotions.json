@@ -126,7 +126,19 @@
   {
     "name": "Devouring",
     "prerequisites": ["BTA Weapons upgrade III", "Carpace upgrade III"],
-    "uniques": ["Heals [20] damage if it kills a unit"],
+    "uniques": [
+	    "Heals [20] damage if it kills a unit", 
+	    "Instantly provides [5] [Bio matter] <upon defeating a [All] unit> <if [Tech level 1] is constructed>", 
+	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 1] is constructed>", 
+	    "Instantly provides [5] [Bio matter] <upon defeating a [All] unit> <if [Tech level 2] is constructed>", 
+	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 2] is constructed>", 
+	    "Instantly provides [5] [Bio matter] <upon defeating a [All] unit> <if [Tech level 3] is constructed>", 
+	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 3] is constructed>", 
+	    "Instantly provides [5] [Bio matter] <upon defeating a [All] unit> <if [Tech level 4] is constructed>", 
+	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 4] is constructed>", 
+	    "Instantly provides [5] [Bio matter] <upon defeating a [All] unit> <if [Tech level 5] is constructed>", 
+	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 5] is constructed>", 
+    ],
     "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
-  }<upon defeating a [All] unit>
+  }
 ]
