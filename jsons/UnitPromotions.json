@@ -138,9 +138,9 @@
 	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 4] is constructed>", 
 	    "Instantly provides [5] [Bio matter] <upon defeating a [All] unit> <if [Tech level 5] is constructed>", 
 	    "Instantly provides [1] [BTA science] <upon defeating a [All] unit> <if [Tech level 5] is constructed>", 
-	    "Earn [10]% of killed [All] unit's [Strength] as [Gold] <if [Humsn tech] is constructed>", 
-	    "Earn [10]% of killed [All] unit's [Strength] as [Science] <if [Humsn tech] is constructed>", 
-	    "Earn [10]% of killed [All] unit's [Strength] as [Culture] <if [Humsn tech] is constructed>"
+	    "Earn [10]% of killed [All] unit's [Strength] as [Gold] <if [Human tech] is constructed>", 
+	    "Earn [10]% of killed [All] unit's [Strength] as [Science] <if [Human tech] is constructed>", 
+	    "Earn [10]% of killed [All] unit's [Strength] as [Culture] <if [Human tech] is constructed>"
     ],
     "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   }
