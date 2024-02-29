@@ -419,6 +419,7 @@
 		"cost": 0,
 		"uniques": [
     //"Destroyed when the city is captured", 
+    "Never destroyed when the city is captured", 
     //"Can only be built [in capital]", 
     "Provides [5] [BTA human tech]", 
     "Unbuildable <for [Bio-tech aliens]>"]
