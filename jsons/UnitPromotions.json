@@ -151,6 +151,11 @@
     "name": "Elite Unit",
     "prerequisites": ["Double Attack", "Devouring", "BTASpeed", "BTASight", "Regeneration"],
     "uniques": [
+	"Only available <for units with [Double Attack]>", 
+	"Only available <for units with [Devouring]>", 
+	"Only available <for units with [BTASpeed]>", 
+	"Only available <for units with [BTASight]>", 
+	"Only available <for units with [Regeneration]>", 
         "[+200]% Strength", "[+10] HP when healing", 
         "[+1] Movement <in [biocover] tiles>", 
         "[+50] HP when healing <in [biocover] tiles>", 
