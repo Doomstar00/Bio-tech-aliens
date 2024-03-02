@@ -29,6 +29,7 @@
         "Can build [Bio fortress] improvements on tiles", 
         "Can build [Bio cannons] improvements on tiles", 
         "Can build [Acid spores generator] improvements on tiles", 
+	"[-50]% construction time for [Bio cover expansion node] improvements <if [Tech level 5] is constructed>",
     "[-100]% maintenance costs"]
     },
     {
