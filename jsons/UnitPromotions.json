@@ -17,6 +17,7 @@
     "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking> <if [Advanced military bio cover usage] is constructed>", 
     "[+5] HP when healing <in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
     "[+5] HP when healing <in [City center] tiles> <if [Military bio cover usage] is constructed>", 
+    "[+5] HP when healing <in tiles adjacent to [Infestation tower]> <if [Military bio cover usage] is constructed>", 
     "[+2] Movement <in [biocover] tiles> <if [Tech level 5] is constructed>", 
     "[+2] Movement <in [City center] tiles> <if [Tech level 5] is constructed>"]
 	},
