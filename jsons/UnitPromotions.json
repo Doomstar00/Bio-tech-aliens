@@ -16,7 +16,9 @@
     "[+50]% Strength <when fighting in [Bio fortress] tiles> <when defending> <if [Advanced military bio cover usage] is constructed>", 
     "[+50]% Strength <when fighting in [Bio cannons] tiles> <when attacking> <if [Advanced military bio cover usage] is constructed>", 
     "[+5] HP when healing <in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
-    "[+5] HP when healing <in [City center] tiles> <if [Military bio cover usage] is constructed>"]
+    "[+5] HP when healing <in [City center] tiles> <if [Military bio cover usage] is constructed>", 
+    "[+2] Movement <in [biocover] tiles> <if [Tech level 5] is constructed>", 
+    "[+2] Movement <in [City center] tiles> <if [Tech level 5] is constructed>"]
 	},
   {
     "name": "BTA Heal Instantly",
@@ -94,13 +96,13 @@
   {
     "name": "BTARange",
     "prerequisites": ["BTA Weapons upgrade II", "Carpace upgrade II"],
-    "uniques": ["[+1] Range"],
+    "uniques": ["[+1] Range", "[+1] Range <for [Air] units>"],
     "unitTypes": ["Ranged bug", "Siege bug", "Water ranged bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
     "name": "BTASight",
     "prerequisites": ["BTA Weapons upgrade I", "Carpace upgrade I"],
-    "uniques": ["[+1] Sight"],
+    "uniques": ["[+1] Sight", "[+1] Sight <for [Air] units>"],
     "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
@@ -143,5 +145,17 @@
 	    "Earn [10]% of killed [All] unit's [Strength] as [Culture] <if [Human tech] is constructed>"
     ],
     "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
-  }
+  },
+    {
+    "name": "Elite Unit",
+    "prerequisites": ["Double Attack", "Devouring", "BTASpeed", "BTASight", "Regeneration"],
+    "uniques": [
+        "[+200]% Strength", "[+10] HP when healing", 
+        "[+1] Movement <in [biocover] tiles>", 
+        "[+50] HP when healing <in [biocover] tiles>", 
+        "[+50] HP when healing <in [City center] tiles>", 
+        "[+100]% XP gained from combat"
+    ], 
+    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
+    }
 ]
