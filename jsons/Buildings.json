@@ -38,6 +38,18 @@
     "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human tech] is constructed>"
     ]
 	},
+	{
+		"name": "BTA production",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
+	}, 
+	{
+		"name": "Human production",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}, 
 
 
 //buildings
