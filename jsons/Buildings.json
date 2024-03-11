@@ -8,7 +8,7 @@
 		"cityStrength": 5,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", 
     "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", 
-    "Instantly provides [50] [Bio matter]", //"Gain a free [BTA production] [in this city]"
+    "Instantly provides [50] [Bio matter]", 
     "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 1] is constructed>", 
     "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 2] is constructed>", 
     "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 3] is constructed>", 
@@ -42,8 +42,8 @@
 		"name": "BTA production",
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
-		"uniques": ["Destroyed when the city is captured", "Can only be built [in capital]", 
-		//"Only available <in cities without a [Human production]>", 
+		"uniques": ["Unbuildable <if [Human tech] is constructed> <for [AI player]>", 
+		"Destroyed when the city is captured", "Can only be built [in capital]", 
 		"Sell [Human production] buildings [in all cities]", 
                 "Limited to [1] per Civilization", "Can be purchased for [0] [Gold] [in capital]"]
 	}, 
@@ -51,8 +51,7 @@
 		"name": "Human production",
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
-		"uniques": ["Unbuildable", "Destroyed when the city is captured", "Can only be built [in capital]", 
-		//"Only available <in cities without a [BTA production]>", 
+		"uniques": ["Destroyed when the city is captured", "Can only be built [in capital]", 
 		"Sell [BTA production] buildings [in all cities]", 
 		"Only available <if [Human tech] is constructed>", 
                 "Limited to [1] per Civilization", "Can be purchased for [0] [Gold] [in capital]"]
