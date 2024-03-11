@@ -45,7 +45,7 @@
 		"uniques": [
 		"Unbuildable <if [Human tech] is constructed> <for [AI player]>", 
 		"Destroyed when the city is captured", "Can only be built [in capital]", 
-		//"Sell [Human production] buildings [in all cities]", 
+		"Sell [Human production] buildings [in all cities]", 
                 "Can be purchased for [0] [Gold] [in capital]"
 		]
 	}, 
