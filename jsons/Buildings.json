@@ -45,16 +45,17 @@
 		"uniques": ["Unbuildable <if [Human tech] is constructed> <for [AI player]>", 
 		"Destroyed when the city is captured", "Can only be built [in capital]", 
 		"Sell [Human production] buildings [in all cities]", 
-                "Limited to [1] per Civilization", "Can be purchased for [0] [Gold] [in capital]"]
+                "Can be purchased for [0] [Gold] [in capital]"]
 	}, 
 	{
 		"name": "Human production",
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
-		"uniques": ["Destroyed when the city is captured", "Can only be built [in capital]", 
-		"Sell [BTA production] buildings [in all cities]", 
+		"uniques": [
 		"Only available <if [Human tech] is constructed>", 
-                "Limited to [1] per Civilization", "Can be purchased for [0] [Gold] [in capital]"]
+		"Destroyed when the city is captured", "Can only be built [in capital]", 
+		"Sell [BTA production] buildings [in all cities]", 
+                "Can be purchased for [0] [Gold] [in capital]"]
 	}, 
 
 
