@@ -44,7 +44,7 @@
 		"cost": 0,
 		"uniques": ["Unbuildable", "Destroyed when the city is captured", "Can only be built [in capital]", 
 		"Sell [Human production] buildings [in all cities] <upon constructing [BTA production]>", 
-                "Limited to [1] per Civilization"]
+                "Limited to [1] per Civilization", "Can be purchased for [0] [Gold] [in capital]"]
 	}, 
 	{
 		"name": "Human production",
@@ -53,7 +53,7 @@
 		"uniques": ["Destroyed when the city is captured", "Can only be built [in capital]", 
 		"Sell [BTA production] buildings [in all cities] <upon constructing [Human production]>", 
 		"Only available <if [Human tech] is constructed>", 
-                "Limited to [1] per Civilization"]
+                "Limited to [1] per Civilization", "Can be purchased for [0] [Gold] [in capital]"]
 	}, 
 
 
