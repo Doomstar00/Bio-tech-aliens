@@ -41,17 +41,17 @@
 	{
 		"name": "BTA production",
 		"uniqueTo": "Bio-tech aliens",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Unbuildable", "Destroyed when the city is captured", "Can only be built [in capital]", 
-		"Remove [Human production] [in all cities] <upon constructing [BTA production]>", 
+		"Sell [Human production] buildings [in all cities] <upon constructing [BTA production]>", 
                 "Limited to [1] per Civilization"]
 	}, 
 	{
 		"name": "Human production",
 		"uniqueTo": "Bio-tech aliens",
-		"cost": 1,
+		"cost": 0,
 		"uniques": ["Destroyed when the city is captured", "Can only be built [in capital]", 
-		"Remove [BTA production] [in all cities] <upon constructing [Human production]>", 
+		"Sell [BTA production] buildings [in all cities] <upon constructing [Human production]>", 
 		"Only available <if [Human tech] is constructed>", 
                 "Limited to [1] per Civilization"]
 	}, 
