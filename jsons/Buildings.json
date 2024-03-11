@@ -50,7 +50,8 @@
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
 		"uniques": ["Destroyed when the city is captured", 
-		"Remove [BTA production] [in all cities] <upon constructing [Human production]>"]
+		"Remove [BTA production] [in all cities] <upon constructing [Human production]>", 
+		"Only available <if [Human tech] is constructed>"]
 	}, 
 
 
