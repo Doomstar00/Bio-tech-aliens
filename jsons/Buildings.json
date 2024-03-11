@@ -55,7 +55,7 @@
 		"cost": 1,
 		"uniques": [
 		"Only available <if [Human tech] is constructed>", 
-		"Destroyed when the city is captured", //"Can only be built [in capital]", 
+		"Destroyed when the city is captured", "Can only be built [in capital]", 
 		"Sell [BTA production] buildings [in all cities]", 
                 "Can be purchased for [0] [Gold] [in capital]"
 		]
