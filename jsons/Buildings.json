@@ -9,11 +9,11 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", 
     "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", 
     "Instantly provides [50] [Bio matter]", 
-    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 1] is constructed>", 
-    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 2] is constructed>", 
-    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 3] is constructed>", 
-    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 4] is constructed>", 
-    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 5] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human production] is constructed> <if [Tech level 1] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human production] is constructed> <if [Tech level 2] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human production] is constructed> <if [Tech level 3] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human production] is constructed> <if [Tech level 4] is constructed>", 
+    "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human production] is constructed> <if [Tech level 5] is constructed>", 
     "Provides [5] [Bio matter] <if [Tech level 3] is constructed>", "Provides [5] [BTA science] <if [Tech level 3] is constructed>", 
     "Provides [10] [Bio matter] <if [Tech level 4] is constructed>", "Provides [10] [BTA science] <if [Tech level 4] is constructed>", 
     "Provides [15] [Bio matter] <if [Tech level 5] is constructed>", "Provides [15] [BTA science] <if [Tech level 5] is constructed>", 
@@ -25,17 +25,17 @@
 		"cost": 0,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cover] tiles [in this city]", 
-    "[+2 Food, +3 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+2 Food, +3 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover] tiles [in this city] <if [Human production] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Experimental bio cover] tiles [in this city]", 
-    "[+1 Food, +1 Production, +1 Gold, +3 Science, +2 Culture] from [Experimental bio cover] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+1 Food, +1 Production, +1 Gold, +3 Science, +2 Culture] from [Experimental bio cover] tiles [in this city] <if [Human production] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city]", 
-    "[+2 Food, +3 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+2 Food, +3 Production, +1 Gold, +1 Science, +1 Culture] from [Bio cover expansion node] tiles [in this city] <if [Human production] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio fortress] tiles [in this city]", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Bio cannons] tiles [in this city]", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Acid spores generator] tiles [in this city]", 
-    "[+1 Food, +4 Science, +1 Culture] from [Acid spores generator] tiles [in this city] <if [Human tech] is constructed>", 
+    "[+1 Food, +4 Science, +1 Culture] from [Acid spores generator] tiles [in this city] <if [Human production] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Infestation tower] tiles [in this city]", 
-    "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human tech] is constructed>"
+    "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human productionl] is constructed>"
     ]
 	},
 	{
@@ -66,7 +66,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
     "New [Military] units start with [10] Experience [in this city]"
-    "Provides [4] [BTA science]", "[+5 Culture, +5 Science] <if [Human tech] is constructed>", 
+    "Provides [4] [BTA science]", "[+5 Culture, +5 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -77,7 +77,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [2000] [Bio matter]", "Only available <when above [2000] [Bio matter]>", 
     "New [Military] units start with [20] Experience [in this city]"
-    "Provides [6] [BTA science]", "[+10 Culture, +10 Science] <if [Human tech] is constructed>", 
+    "Provides [6] [BTA science]", "[+10 Culture, +10 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 4] is constructed>"]
 	},
 	{
@@ -87,7 +87,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
     "New [Military] units start with [10] Experience [in this city]"
-    "Provides [5] [BTA science]", "[+8 Culture, +8 Science] <if [Human tech] is constructed>", 
+    "Provides [5] [BTA science]", "[+8 Culture, +8 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 3] is constructed>", 
     "Limited to [2] per Civilization"]
 	},
@@ -97,7 +97,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [100] [Bio matter]", "Unbuildable <when below [100] [Bio matter]>", 
-    "Provides [10] [Bio matter]", "[+2 Production, +1 Gold] <if [Human tech] is constructed>", 
+    "Provides [10] [Bio matter]", "[+2 Production, +1 Gold] <if [Human production] is constructed>", 
     "Only available <if [Tech level 1] is constructed>"]
 	},
 	{
@@ -107,7 +107,7 @@
 		"requiredBuilding": "Bio matter generator",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [400] [Bio matter]", "Only available <when above [400] [Bio matter]>", 
-    "Provides [20] [Bio matter]", "[+5 Production, +3 Gold] <if [Human tech] is constructed>", 
+    "Provides [20] [Bio matter]", "[+5 Production, +3 Gold] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -117,7 +117,7 @@
 		"requiredBuilding": "Bio matter production copmlex",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "Provides [40] [Bio matter]", "[+10 Production, +5 Gold] <if [Human tech] is constructed>", 
+    "Provides [40] [Bio matter]", "[+10 Production, +5 Gold] <if [Human production] is constructed>", 
     "Only available <if [Tech level 4] is constructed>"]
 	},
 	{
@@ -127,7 +127,7 @@
 		"requiredBuilding": "Bio matter generator",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [400] [Bio matter]", "Only available <when above [400] [Bio matter]>", 
-    "Provides [20] [Bio matter]", "[+5 Production, +3 Gold] <if [Human tech] is constructed>", 
+    "Provides [20] [Bio matter]", "[+5 Production, +3 Gold] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>", 
     "Limited to [4] per Civilization"]
 	},
@@ -138,7 +138,7 @@
 		"requiredBuilding": "Bio matter production copmlex",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "Provides [40] [Bio matter]", "[+10 Production, +5 Gold] <if [Human tech] is constructed>", 
+    "Provides [40] [Bio matter]", "[+10 Production, +5 Gold] <if [Human production] is constructed>", 
     "Only available <if [Tech level 4] is constructed>", 
     "Limited to [2] per Civilization"]
 	},
@@ -150,7 +150,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [200] [Bio matter]", "Only available <when above [200] [Bio matter]>", 
     "Provides [2] [BTA science] <with [Bio matter]>", "Consumes [5] [Bio matter]", 
-    "[+2 Culture, +1 Science] <if [Human tech] is constructed>", 
+    "[+2 Culture, +1 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 1] is constructed>"]
 	},
 	{
@@ -161,7 +161,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
     "Provides [5] [BTA science] <with [Bio matter]>", "Consumes [10] [Bio matter]", 
-    "[+5 Culture, +3 Science] <if [Human tech] is constructed>", 
+    "[+5 Culture, +3 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -172,7 +172,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
     "Provides [10] [BTA science] <with [Bio matter]>", "Consumes [15] [Bio matter]", 
-    "[+10 Culture, +6 Science] <if [Human tech] is constructed>", 
+    "[+10 Culture, +6 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
 	{
@@ -183,7 +183,7 @@
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", 
     "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
     "Provides [5] [BTA science] <with [Bio matter]>", "Consumes [10] [Bio matter]", 
-    "[+5 Culture, +4 Science] <if [Human tech] is constructed>", 
+    "[+5 Culture, +4 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>", 
     "Limited to [3] per Civilization"]
 	},
