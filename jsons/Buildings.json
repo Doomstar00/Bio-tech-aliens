@@ -43,14 +43,14 @@
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
 		"uniques": ["Unbuildable", "Destroyed when the city is captured", 
-		"Remove [Human production] [in all cities]"]
+		"Remove [Human production] [in all cities]", "Sell [Human production] buildings [in all cities]"]
 	}, 
 	{
 		"name": "Human production",
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
 		"uniques": ["Destroyed when the city is captured", 
-		"Remove [BTA production] [in all cities]"]
+		"Remove [BTA production] [in all cities]", "Sell [BTA production] buildings [in all cities]"]
 	}, 
 
 
