@@ -41,6 +41,7 @@
 	{
 		"name": "BTA production",
 		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Unbuildable", "Destroyed when the city is captured", 
 		"Remove [Human production] [in all cities] <upon constructing [BTA production]>"]
@@ -48,6 +49,7 @@
 	{
 		"name": "Human production",
 		"uniqueTo": "Bio-tech aliens",
+		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Destroyed when the city is captured", 
 		"Remove [BTA production] [in all cities] <upon constructing [Human production]>", 
