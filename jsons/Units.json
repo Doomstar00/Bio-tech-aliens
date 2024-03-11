@@ -835,7 +835,7 @@
 		"interceptRange": 8,
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", "Unbuildable", "Cannot be carried by [City] units", "Can see invisible [All] units", 
-    "[+6] Sight", "[100]% chance to intercept air attacks", "[+100]% Strength <vs [Air] units>", "[+100]% Strength <vs cities>", "[+50]% Strength <when attacking>"],
+    "[+6] Sight", "[100]% chance to intercept air attacks", "[+100]% Strength <vs [Air] units>", "[+100]% Strength <vs cities>", "[+50]% Strength <when attacking>", "This Unit gains [30] XP"],
     "promotions": ["Combat algorythms", "Advanced combat algorythms"],
     "attackSound": "jetgun"
 	},
