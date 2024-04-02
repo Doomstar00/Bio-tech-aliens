@@ -38,7 +38,7 @@
     {
         "name": "Flying bug",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", 
+        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", "flying", 
         "All tiles cost 1 movement", "Ranged attacks may be performed over obstacles", 
         "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
         "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
@@ -48,7 +48,7 @@
     {
         "name": "Flying ranged bug",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", 
+        "uniques": ["Can pass through impassable tiles", "Can see over obstacles", "No defensive terrain bonus", "flying", 
         "All tiles cost 1 movement", "Ranged attacks may be performed over obstacles", 
         "[1] Movement point cost to embark", "[1] Movement point cost to disembark", "Defense bonus when embarked", 
         "Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", "May attack when embarked", 
