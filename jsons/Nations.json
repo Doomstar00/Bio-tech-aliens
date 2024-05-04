@@ -36,7 +36,7 @@
     "[-100]% maintenance on road & railroads", "[+100]% maintenance on road & railroads <if [Human tech] is constructed>", 
     "[-100]% maintenance costs", "[+100]% maintenance costs <if [Human tech] is constructed>", 
     "[-100]% maintenance cost for buildings [in all cities]", "[+100]% maintenance cost for buildings [in all cities] <if [Human tech] is constructed>", 
-		"Enables embarkation for land units", "Enables [All] units to enter ocean tiles"], // <if [Water tech] is constructed> <hidden from users>
+		"Enables embarkation for land units <if [Water tech] is constructed>", "Enables [All] units to enter ocean tiles <if [Water tech] is constructed>"], // <hidden from users>
     "cities": ["Hive", "Nest", "Infestation", "Lair", "Node"]
 	}
 ]
