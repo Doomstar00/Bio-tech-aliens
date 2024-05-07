@@ -154,7 +154,7 @@
     "uniques": [
 	"Only available <for units with [Double Attack]>", 
 	"Only available <for units with [Devouring]>", 
-	"Unavailable <for units without [BTASpeed]> <when [Air]>", 
+	"Unavailable <for units without [BTASpeed]> <when [non-[Air]]>", 
 	"Only available <for units with [BTASight]>", 
 	"Only available <for units with [Regeneration]>", 
 	"Unavailable <for units without [BTARange]> <when [Ranged bug]>", 
