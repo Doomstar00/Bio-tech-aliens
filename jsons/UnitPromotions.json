@@ -7,6 +7,7 @@
     "[+40]% Strength <when fighting in [Acid spores generator] tiles> <when defending>", 
     "[+10]% Strength <when fighting in [biocover] tiles>", 
     "Ignores terrain cost <in [biocover] tiles>", 
+    "Ignores terrain cost <in [City center] tiles>", 
     "[+40]% Strength <when fighting in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
     "[+1] Movement <in [biocover] tiles> <if [Military bio cover usage] is constructed>", 
     "[+1] Movement <in [City center] tiles> <if [Military bio cover usage] is constructed>", 
@@ -68,19 +69,19 @@
   {
     "name": "Carpace upgrade I",
     "uniques": ["[+10]% Strength <when defending>"],
-    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
+    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
     "name": "Carpace upgrade II",
     "prerequisites": ["Carpace upgrade I"],
     "uniques": ["[+10]% Strength <when defending>"],
-    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
+    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
     "name": "Carpace upgrade III",
     "prerequisites": ["Carpace upgrade II"],
     "uniques": ["[+10]% Strength <when defending>"],
-    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
+    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Mobile base bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
   },
   {
     "name": "Regeneration",
@@ -153,15 +154,16 @@
     "uniques": [
 	"Only available <for units with [Double Attack]>", 
 	"Only available <for units with [Devouring]>", 
-	"Only available <for units with [BTASpeed]>", 
+	"Unavailable <for units without [BTASpeed]> <when [Air]>", 
 	"Only available <for units with [BTASight]>", 
 	"Only available <for units with [Regeneration]>", 
+	"Unavailable <for units without [BTARange]> <when [non-[Melee]]>", 
         "[+200]% Strength", "[+10] HP when healing", 
         "[+1] Movement <in [biocover] tiles>", 
         "[+50] HP when healing <in [biocover] tiles>", 
         "[+50] HP when healing <in [City center] tiles>", 
         "[+100]% XP gained from combat"
     ], 
-    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base ranged bug"]
+    "unitTypes": ["Melee bug", "Ranged bug", "Scout bug", "Siege bug", "Water melee bug", "Water ranged bug", "Submarine bug", "Flying bug", "Fighter bug", "Flying hive", "Flying ranged bug", "Mobile base bug", "Mobile base ranged bug"]
     }
 ]
