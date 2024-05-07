@@ -88,7 +88,7 @@
 		"name": "Primary Hive Mind node",
 		"uniqueTo": "Bio-tech aliens",
 		"cost": 1,
-		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [non-[Puppeted]] cities>", 
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
     "New [Military] units start with [10] Experience [in this city]"
     "Provides [5] [BTA science] <if [BTA production] is constructed>", "[+8 Culture, +8 Science] <if [Human production] is constructed>", 
