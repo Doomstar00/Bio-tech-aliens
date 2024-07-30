@@ -6,7 +6,7 @@
 		"production": 5,
 		"cost": 0,
 		"cityStrength": 5,
-		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", 
+		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built [in capital]", "Moves to new capital when capital changes", 
     "Provides [10] [Bio matter]", "Provides [10] [BTA science]", "Instantly provides [50] [BTA science]", 
     "Instantly provides [50] [Bio matter]", "Can only be built <in [non-[Puppeted]] cities>", 
     "[+5 Culture, +5 Science, +5 Gold, +5 Production] <if [Human tech] is constructed> <if [Tech level 1] is constructed>", 
