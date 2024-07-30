@@ -3,17 +3,20 @@
 		"name": "Bio matter",
 		"uniqueTo": "Bio-tech aliens",
 		"resourceType": "Strategic",
-		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"],
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled",
+			"Not shown on world screen <for [non-[Bio-tech aliens]]>"],
 	},
 	{
 		"name": "BTA science",
 		"uniqueTo": "Bio-tech aliens",
 		"resourceType": "Strategic",
-		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"],
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled",
+			"Not shown on world screen <for [non-[Bio-tech aliens]]>"],
 	},
 	{
 		"name": "BTA human tech",
 		"resourceType": "Strategic",
-		"uniques": ["Excluded from map editor"],
+		"uniques": ["Excluded from map editor",
+			"Not shown on world screen"],
 	}
 ]
