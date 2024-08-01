@@ -217,7 +217,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]"
+    "New [Military] units start with [10] Experience [in this city]", 
     "Provides [4] [BTA science] <if [BTA production] is constructed>", "[+5 Culture, +5 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
@@ -228,7 +228,7 @@
 		"requiredBuilding": "Hive Mind node",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [2000] [Bio matter]", "Only available <when above [2000] [Bio matter]>", 
-    "New [Military] units start with [20] Experience [in this city]"
+    "New [Military] units start with [20] Experience [in this city]", 
     "Provides [6] [BTA science] <if [BTA production] is constructed>", "[+10 Culture, +10 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 4] is constructed>"]
 	},
@@ -238,7 +238,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]"
+    "New [Military] units start with [10] Experience [in this city]", 
     "Provides [5] [BTA science] <if [BTA production] is constructed>", "[+8 Culture, +8 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 3] is constructed>", 
     "Limited to [2] per Civilization"]
@@ -482,7 +482,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
-    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", "Comment [Allow construction of water units]", 
     "Only available <if [Tech level 2] is constructed>", "Enables embarkation for land units", "Enables [All] units to enter ocean tiles"]
 	},
 	{
@@ -491,7 +491,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
-    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", 
+    "Instantly consumes [800] [BTA science]", "Unbuildable <when below [800] [BTA science]>", "Comment [Allow construction of siege units]", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -500,7 +500,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
-    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", 
+    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", "Comment [Allow construction of air units]", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
 	{
@@ -509,7 +509,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
-    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", 
+    "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", "Comment [Allow construction of invisible(stealth) units]", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
 
@@ -550,7 +550,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
-    "[-20]% Culture cost of natural border growth [in all cities]", "+1 Bio matter from Bio cover tiles", "+1 Bio matter from Experimental bio cover tiles", 
+    "[-20]% Culture cost of natural border growth [in all cities]", "Comment [+1 Bio matter from Bio cover tiles]", "Comment [+1 Bio matter from Experimental bio cover tiles]", 
     "[-50]% construction time for [Bio cover] improvements", 
     "[-50]% construction time for [Experimental bio cover] improvements", 
     "[-10]% construction time for [Bio cover expansion node] improvements", 
@@ -564,7 +564,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [2000] [BTA science]", "Unbuildable <when below [2000] [BTA science]>", 
-    "[-10]% Culture cost of natural border growth [in all cities]", "+2 Bio matter from Bio cover tiles", "+1 BTA science from Experimental bio cover tiles", 
+    "[-10]% Culture cost of natural border growth [in all cities]", "Comment [+2 Bio matter from Bio cover tiles]", "Comment [+1 BTA science from Experimental bio cover tiles]", 
     "[-20]% construction time for [Bio cover expansion node] improvements", 
     "Only available <if [Tech level 3] is constructed>", 
     "Only available <if [Economical bio cover usage] is constructed>", 
