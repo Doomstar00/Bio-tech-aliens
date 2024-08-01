@@ -74,6 +74,13 @@ ResourceIcons/Bio matter
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/Civ6/Tiles/Acid spores generator
+  rotate: false
+  xy: 4, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Acid spores generator
   rotate: false
   xy: 4, 4
@@ -84,6 +91,13 @@ TileSets/FantasyHex/Tiles/Acid spores generator
 TileSets/HexaRealm/Tiles/Acid spores generator
   rotate: false
   xy: 4, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/Bio cannons
+  rotate: false
+  xy: 868, 220
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -102,6 +116,13 @@ TileSets/HexaRealm/Tiles/Bio cannons
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6/Tiles/Bio cover
+  rotate: false
+  xy: 76, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Bio cover
   rotate: false
   xy: 76, 4
@@ -112,6 +133,13 @@ TileSets/FantasyHex/Tiles/Bio cover
 TileSets/HexaRealm/Tiles/Bio cover
   rotate: false
   xy: 76, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/Bio cover expansion node
+  rotate: false
+  xy: 868, 156
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -130,6 +158,13 @@ TileSets/HexaRealm/Tiles/Bio cover expansion node
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6/Tiles/Bio fortress
+  rotate: false
+  xy: 148, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Bio fortress
   rotate: false
   xy: 148, 4
@@ -137,18 +172,39 @@ TileSets/FantasyHex/Tiles/Bio fortress
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Bio fortress
+  rotate: false
+  xy: 148, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/Experimental bio cover
+  rotate: false
+  xy: 868, 92
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Experimental bio cover
   rotate: false
-  xy: 220, 4
+  xy: 868, 92
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Experimental bio cover
   rotate: false
-  xy: 220, 4
+  xy: 868, 92
   size: 64, 56
   orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/Infestation tower
+  rotate: false
+  xy: 940, 196
+  size: 64, 80
+  orig: 64, 80
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Infestation tower
@@ -163,13 +219,6 @@ TileSets/HexaRealm/Tiles/Infestation tower
   xy: 940, 196
   size: 64, 80
   orig: 64, 80
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Bio fortress
-  rotate: false
-  xy: 868, 92
-  size: 64, 56
-  orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Advanced melee bug
@@ -321,7 +370,7 @@ UnitIcons/Worker bug
   index: -1
 UnitPromotionIcons/BTA Heal Instantly
   rotate: false
-  xy: 292, 10
+  xy: 220, 10
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -342,14 +391,14 @@ UnitPromotionIcons/BTARange
   index: -1
 UnitPromotionIcons/BTASight
   rotate: false
-  xy: 350, 10
+  xy: 278, 10
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/BTASpeed
   rotate: false
-  xy: 408, 10
+  xy: 336, 10
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -370,7 +419,7 @@ UnitPromotionIcons/Carpace upgrade
   index: -1
 UnitPromotionIcons/Regeneration
   rotate: false
-  xy: 466, 10
+  xy: 394, 10
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
