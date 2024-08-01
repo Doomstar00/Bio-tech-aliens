@@ -26,7 +26,7 @@
     "[+100]% [Culture] <if [Human tech] is constructed>", "[+100]% [Science] <if [Human tech] is constructed>", 
     "[+100]% [Gold] <if [Human tech] is constructed>", "[+100]% [Production] <if [Human tech] is constructed>", 
     "[Land] units gain the [Biocover usage] promotion",
-    "Gain a free [Bio cover usage] [in all cities]", 
+    "Gain a free [Bio cover usage] [in all cities]",  "[-100]% Culture cost of natural border growth [in all cities]",
     "[-25]% Production when constructing [All] buildings [in all cities] <if [Human tech] is constructed>", 
     "[+25]% Production when constructing [All] buildings [in capital] <if [Human tech] is constructed>", 
     "[+25]% Production towards any buildings that already exist in the Capital <if [Human tech] is constructed>", 
