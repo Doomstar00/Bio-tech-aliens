@@ -35,49 +35,157 @@
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Acid spores generator] tiles [in this city]", 
     "[+1 Food, +4 Science, +1 Culture] from [Acid spores generator] tiles [in this city] <if [Human production] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Infestation tower] tiles [in this city]", 
-    "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human production] is constructed>", 
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [2]-tile radius <when between [0] and [2] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [2]-tile radius <when between [0] and [2] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [2]-tile radius <when between [0] and [2] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>", 
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [3]-tile radius <when between [2] and [2] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [3]-tile radius <when between [2] and [2] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [3]-tile radius <when between [2] and [2] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>",
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [4]-tile radius <when between [3] and [3] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [4]-tile radius <when between [3] and [3] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [4]-tile radius <when between [3] and [3] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>", 
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [5]-tile radius <when between [4] and [4] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [5]-tile radius <when between [4] and [4] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [5]-tile radius <when between [4] and [4] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>",
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [6]-tile radius <when between [5] and [5] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [6]-tile radius <when between [5] and [5] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [6]-tile radius <when between [5] and [5] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>", 
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [7]-tile radius <when between [6] and [6] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [7]-tile radius <when between [6] and [6] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [7]-tile radius <when between [6] and [6] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>",
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [8]-tile radius <when between [7] and [7] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [8]-tile radius <when between [7] and [7] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [8]-tile radius <when between [7] and [7] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>",
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [9]-tile radius <when between [8] and [8] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [9]-tile radius <when between [8] and [8] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [9]-tile radius <when between [8] and [8] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>", 
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [10]-tile radius <when between [9] and [9] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [10]-tile radius <when between [9] and [9] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [10]-tile radius <when between [9] and [9] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>", 
-			
-    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [11]-tile radius <when between [10] and [10] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [11]-tile radius <when between [10] and [10] [TR]> <hidden from users> <upon turn end>", 
-    "Gain control over [Enemy Land] tiles in a [11]-tile radius <when between [10] and [10] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed> <upon turn end>", 
+    "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human production] is constructed>",  
     ]
 	},
+	{
+		"name": "TR1",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [1] and [1] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [2]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [2]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [2]-tile radius <if [Advanced military bio cover usage] is constructed>",
+		]
+	}, 
+	{
+		"name": "TR2",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [2] and [2] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [3]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [3]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [3]-tile radius <if [Advanced military bio cover usage] is constructed>", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR3",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [3] and [3] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [4]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [4]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [4]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR4",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [4] and [4] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [5]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [5]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [5]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR5",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [5] and [5] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [6]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [6]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [6]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR4] [in this city]",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR6",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [6] and [6] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [7]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [7]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [7]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR5] [in this city]",
+        "Remove [TR4] [in this city]",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR7",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [7] and [7] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [8]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [8]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [8]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR6] [in this city]",
+        "Remove [TR5] [in this city]",
+        "Remove [TR4] [in this city]",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR8",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [8] and [8] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [9]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [9]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [9]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR7] [in this city]",
+        "Remove [TR6] [in this city]",
+        "Remove [TR5] [in this city]",
+        "Remove [TR4] [in this city]",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR9",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [9] and [9] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [10]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [10]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [10]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR8] [in this city]",
+        "Remove [TR7] [in this city]",
+        "Remove [TR6] [in this city]",
+        "Remove [TR5] [in this city]",
+        "Remove [TR4] [in this city]",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+	{
+		"name": "TR10",
+		"uniqueTo": "Bio-tech aliens",
+		"cost": 1,
+		"uniques": ["Only available <when between [10] and [999] [TR]>", "Can be purchased for [0] [Gold] [in all cities]", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [11]-tile radius", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [11]-tile radius", 
+    "Gain control over [Enemy Land] tiles in a [11]-tile radius <if [Advanced military bio cover usage] is constructed>",
+        "Remove [TR9] [in this city]",
+        "Remove [TR8] [in this city]",
+        "Remove [TR7] [in this city]",
+        "Remove [TR6] [in this city]",
+        "Remove [TR5] [in this city]",
+        "Remove [TR4] [in this city]",
+        "Remove [TR3] [in this city]",
+        "Remove [TR2] [in this city]", 
+        "Remove [TR1] [in this city]"
+		]
+	}, 
+
+
+
 	{
 		"name": "BTA production",
 		"uniqueTo": "Bio-tech aliens",
