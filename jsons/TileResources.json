@@ -18,5 +18,11 @@
 		"resourceType": "Strategic",
 		"uniques": ["Excluded from map editor",
 			"Not shown on world screen"],
+	},
+	{
+		"name": "Territory Radius",
+		"resourceType": "Strategic",
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled",
+			"Will not be displayed in Civilopedia", "Not shown on world screen"],
 	}
 ]
