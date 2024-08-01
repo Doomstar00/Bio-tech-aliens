@@ -35,7 +35,10 @@
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Acid spores generator] tiles [in this city]", 
     "[+1 Food, +4 Science, +1 Culture] from [Acid spores generator] tiles [in this city] <if [Human production] is constructed>", 
     "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Science, +1 Culture] from [Infestation tower] tiles [in this city]", 
-    "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human production] is constructed>"
+    "[+1 Food, +1 Science, +3 Culture] from [Infestation tower] tiles [in this city] <if [Human production] is constructed>", 
+    "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [2]-tile radius <when between [1] and [1] [TR]> <hidden from users>", 
+    "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [2]-tile radius <when between [1] and [1] [TR]> <hidden from users>", 
+    "Gain control over [Enemy Land] tiles in a [2]-tile radius <when between [1] and [1] [TR]> <hidden from users> <if [Advanced military bio cover usage] is constructed>", 
     ]
 	},
 	{
