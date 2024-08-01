@@ -280,7 +280,8 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
-    "Instantly consumes [50] [BTA science]", "Unbuildable <when below [50] [BTA science]>"]
+    "Instantly consumes [50] [BTA science]", "Unbuildable <when below [50] [BTA science]>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Tech level 2",
@@ -289,7 +290,8 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1200] [BTA science]", "Unbuildable <when below [1200] [BTA science]>", 
-    "Only available <if [Tech level 1] is constructed>"]
+    "Only available <if [Tech level 1] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Tech level 3",
@@ -298,7 +300,8 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [2400] [BTA science]", "Unbuildable <when below [2400] [BTA science]>", 
-    "Only available <if [Tech level 2] is constructed>"]
+    "Only available <if [Tech level 2] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Tech level 4",
@@ -309,7 +312,8 @@
     "Instantly consumes [3600] [BTA science]", "Unbuildable <when below [3600] [BTA science]>", 
     "Only available <if [Tech level 3] is constructed>", 
     "Only available <if [Water tech] is constructed>", 
-    "Only available <if [Siege tech] is constructed>"]
+    "Only available <if [Siege tech] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Tech level 5",
@@ -320,7 +324,8 @@
     "Instantly consumes [5000] [BTA science]", "Unbuildable <when below [5000] [BTA science]>", 
     "Only available <if [Tech level 4] is constructed>", 
     "Only available <if [Air tech] is constructed>", 
-    "Only available <if [Stealth tech] is constructed>"]
+    "Only available <if [Stealth tech] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 //unit types
 	{
@@ -370,7 +375,8 @@
     "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
     "[-10]% construction time for [Bio fortress] improvements", 
     "[-10]% construction time for [Bio cannons] improvements", 
-    "Only available <if [Tech level 2] is constructed>"]
+    "Only available <if [Tech level 2] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Advanced military bio cover usage",
@@ -386,7 +392,8 @@
     "[-20]% construction time for [Bio cannons] improvements", 
     "[-10]% construction time for [Acid spores generator] improvements", 
     "Only available <if [Tech level 3] is constructed>", 
-    "Only available <if [Military bio cover usage] is constructed>"]
+    "Only available <if [Military bio cover usage] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Economical bio cover usage",
@@ -399,7 +406,8 @@
     "[-50]% construction time for [Bio cover] improvements", 
     "[-50]% construction time for [Experimental bio cover] improvements", 
     "[-10]% construction time for [Bio cover expansion node] improvements", 
-    "Only available <if [Tech level 2] is constructed>"]
+    "Only available <if [Tech level 2] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Advanced economical bio cover usage",
@@ -411,7 +419,8 @@
     "[-10]% Culture cost of natural border growth [in all cities]", "+2 Bio matter from Bio cover tiles", "+1 BTA science from Experimental bio cover tiles", 
     "[-20]% construction time for [Bio cover expansion node] improvements", 
     "Only available <if [Tech level 3] is constructed>", 
-    "Only available <if [Economical bio cover usage] is constructed>"]
+    "Only available <if [Economical bio cover usage] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 	{
 		"name": "Defensive bio cover usage",
@@ -425,7 +434,8 @@
     "[-10]% construction time for [Bio cannons] improvements", 
     "[-10]% construction time for [Acid spores generator] improvements", 
     "Enemy [Land] units must spend [1] extra movement points when inside your territory", 
-    "Only available <if [Tech level 4] is constructed>"]
+    "Only available <if [Tech level 4] is constructed>", 
+			"Instantly provides [1] [TR] <when below [10] [TR]> <hidden from users>", "Comment [Increase Territory Radius by 1]"]
 	},
 //human (allows normal game)
 	{
