@@ -56,7 +56,7 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [3]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [3]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [3]-tile radius <if [Advanced military bio cover usage] is constructed>", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -67,8 +67,8 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [4]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [4]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [4]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -79,9 +79,9 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [5]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [5]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [5]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -92,10 +92,10 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [6]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [6]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [6]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR4] [in this city]",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR4] [in this city] <hidden from users>",
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -106,11 +106,11 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [7]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [7]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [7]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR5] [in this city]",
-        "Remove [TR4] [in this city]",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR5] [in this city] <hidden from users>",
+        "Remove [TR4] [in this city] <hidden from users>",
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -121,12 +121,12 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [8]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [8]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [8]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR6] [in this city]",
-        "Remove [TR5] [in this city]",
-        "Remove [TR4] [in this city]",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR6] [in this city] <hidden from users>",
+        "Remove [TR5] [in this city] <hidden from users>",
+        "Remove [TR4] [in this city] <hidden from users>",
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -137,13 +137,13 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [9]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [9]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [9]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR7] [in this city]",
-        "Remove [TR6] [in this city]",
-        "Remove [TR5] [in this city]",
-        "Remove [TR4] [in this city]",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR7] [in this city] <hidden from users>",
+        "Remove [TR6] [in this city] <hidden from users>",
+        "Remove [TR5] [in this city] <hidden from users>",
+        "Remove [TR4] [in this city] <hidden from users>",
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -154,14 +154,14 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [10]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [10]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [10]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR8] [in this city]",
-        "Remove [TR7] [in this city]",
-        "Remove [TR6] [in this city]",
-        "Remove [TR5] [in this city]",
-        "Remove [TR4] [in this city]",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR8] [in this city] <hidden from users>",
+        "Remove [TR7] [in this city] <hidden from users>",
+        "Remove [TR6] [in this city] <hidden from users>",
+        "Remove [TR5] [in this city] <hidden from users>",
+        "Remove [TR4] [in this city] <hidden from users>",
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 	{
@@ -172,15 +172,15 @@
     "Gain control over [{Land} {non-[Major]} {non-[AI player]}] tiles in a [11]-tile radius", 
     "Gain control over [{Coast} {non-[Major]} {non-[AI player]}] tiles in a [11]-tile radius", 
     "Gain control over [Enemy Land] tiles in a [11]-tile radius <if [Advanced military bio cover usage] is constructed>",
-        "Remove [TR9] [in this city]",
-        "Remove [TR8] [in this city]",
-        "Remove [TR7] [in this city]",
-        "Remove [TR6] [in this city]",
-        "Remove [TR5] [in this city]",
-        "Remove [TR4] [in this city]",
-        "Remove [TR3] [in this city]",
-        "Remove [TR2] [in this city]", 
-        "Remove [TR1] [in this city]"
+        "Remove [TR9] [in this city] <hidden from users>",
+        "Remove [TR8] [in this city] <hidden from users>",
+        "Remove [TR7] [in this city] <hidden from users>",
+        "Remove [TR6] [in this city] <hidden from users>",
+        "Remove [TR5] [in this city] <hidden from users>",
+        "Remove [TR4] [in this city] <hidden from users>",
+        "Remove [TR3] [in this city] <hidden from users>",
+        "Remove [TR2] [in this city] <hidden from users>", 
+        "Remove [TR1] [in this city] <hidden from users>"
 		]
 	}, 
 
@@ -217,7 +217,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]", 
+    "New [Military] units start with [10] XP [in this city]", 
     "Provides [4] [BTA science] <if [BTA production] is constructed>", "[+5 Culture, +5 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
@@ -228,7 +228,7 @@
 		"requiredBuilding": "Hive Mind node",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [2000] [Bio matter]", "Only available <when above [2000] [Bio matter]>", 
-    "New [Military] units start with [20] Experience [in this city]", 
+    "New [Military] units start with [20] XP [in this city]", 
     "Provides [6] [BTA science] <if [BTA production] is constructed>", "[+10 Culture, +10 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 4] is constructed>"]
 	},
@@ -238,7 +238,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]", 
+    "New [Military] units start with [10] XP [in this city]", 
     "Provides [5] [BTA science] <if [BTA production] is constructed>", "[+8 Culture, +8 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 3] is constructed>", 
     "Limited to [2] per Civilization"]
@@ -301,7 +301,7 @@
 		"requiredBuilding": "Bio matter generator",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [200] [Bio matter]", "Only available <when above [200] [Bio matter]>", 
-    "Provides [2] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [5] [Bio matter] <if [BTA production] is constructed>", 
+    "Provides [5] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [10] [Bio matter] <if [BTA production] is constructed>", 
     "[+2 Culture, +1 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 1] is constructed>"]
 	},
@@ -312,7 +312,7 @@
 		"requiredBuilding": "Brain node",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
-    "Provides [5] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [10] [Bio matter] <if [BTA production] is constructed>", 
+    "Provides [12] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [20] [Bio matter] <if [BTA production] is constructed>", 
     "[+5 Culture, +3 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>"]
 	},
@@ -323,7 +323,7 @@
 		"requiredBuilding": "Brain complex",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "Provides [10] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [15] [Bio matter] <if [BTA production] is constructed>", 
+    "Provides [20] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [30] [Bio matter] <if [BTA production] is constructed>", 
     "[+10 Culture, +6 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
@@ -334,7 +334,7 @@
 		"requiredBuilding": "Brain node",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
-    "Provides [5] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [10] [Bio matter] <if [BTA production] is constructed>", 
+    "Provides [13] [BTA science] <with [Bio matter]> <if [BTA production] is constructed>", "Consumes [20] [Bio matter] <if [BTA production] is constructed>", 
     "[+5 Culture, +4 Science] <if [Human production] is constructed>", 
     "Only available <if [Tech level 2] is constructed>", 
     "Limited to [3] per Civilization"]
@@ -346,7 +346,7 @@
 		"requiredBuilding": "Bio matter generator",
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [500] [Bio matter]", "Only available <when above [500] [Bio matter]>", 
-    "[+10]% Production when constructing [All] units [in this city]", 
+    "[+25]% Production when constructing [All] units [in this city]", 
     "Provides [15] [Bio matter]", 
     "New [Military] units start with [10] Experience [in this city]", 
     "Only available <if [Tech level 3] is constructed>"]
@@ -358,7 +358,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [800] [Bio matter]", "Only available <when above [800] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]", 
+    "New [Military] units start with [10] XP [in this city]", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
 	{
@@ -367,7 +367,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]", 
+    "New [Military] units start with [10] XP [in this city]", 
     "All newly-trained [All] units [in this city] receive the [Combat algorythms] promotion", 
     "Only available <if [Tech level 3] is constructed>"]
 	},
@@ -377,7 +377,7 @@
 		"cost": 1,
 		"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Can only be built <in [Non-occupied] cities>", 
     "Instantly consumes [1000] [Bio matter]", "Only available <when above [1000] [Bio matter]>", 
-    "New [Military] units start with [10] Experience [in this city]", 
+    "New [Military] units start with [10] XP [in this city]", 
     "All newly-trained [All] units [in this city] receive the [Advanced combat algorythms] promotion", 
     "Only available <if [Tech level 4] is constructed>", 
     "Limited to [2] per Civilization"]
@@ -597,3 +597,4 @@
     "Unbuildable <when below [5] [BTA human tech]>"]
 	}
 ]
+
