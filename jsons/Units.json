@@ -29,6 +29,7 @@
         "Can build [Bio fortress] improvements on tiles", 
         "Can build [Bio cannons] improvements on tiles", 
         "Can build [Acid spores generator] improvements on tiles", 
+	"Invisible to non-adjacent units <if [Advanced military bio cover usage] is constructed>", 
 	"[-50]% construction time for [Bio cover expansion node] improvements <if [Tech level 5] is constructed>",
     "[-100]% maintenance costs"]
     },
@@ -699,7 +700,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", "[+1] Sight", 
     "Instantly consumes [600] [Bio matter]", "Unbuildable <when below [600] [Bio matter]>", 
-    "Instantly consumes [250] [BTA science]", "Unbuildable <when below [80] [BTA science]>", 
+    "Instantly consumes [250] [BTA science]", "Unbuildable <when below [250] [BTA science]>", 
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Stealth tech] is constructed>", 
     "Ignores terrain cost", "Invisible to others", "May enter foreign tiles without open borders"],
@@ -731,7 +732,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", "Can see invisible [All] units", 
     "Instantly consumes [900] [Bio matter]", "Unbuildable <when below [900] [Bio matter]>", 
-    "Instantly consumes [200] [BTA science]", "Unbuildable <when below [100] [BTA science]>", 
+    "Instantly consumes [200] [BTA science]", "Unbuildable <when below [200] [BTA science]>", 
     "[+1] Sight", "Can move after attacking", "[+50]% Strength <vs [Air] units>", 
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Air tech] is constructed>"],
@@ -795,7 +796,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
     "Instantly consumes [1000] [Bio matter]", "Unbuildable <when below [1000] [Bio matter]>", 
-    "Instantly consumes [200] [BTA science]", "Unbuildable <when below [100] [BTA science]>", 
+    "Instantly consumes [200] [BTA science]", "Unbuildable <when below [200] [BTA science]>", 
     "[+120]% Strength <when attacking>", "Can only attack [Water] tiles", 
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Stealth tech] is constructed>", 
@@ -812,8 +813,8 @@
 		"range": 2,
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
-    "Instantly consumes [1000] [Bio matter]", "Unbuildable <when below [1200] [Bio matter]>", 
-    "Instantly consumes [500] [BTA science]", "Unbuildable <when below [250] [BTA science]>", 
+    "Instantly consumes [1000] [Bio matter]", "Unbuildable <when below [1000] [Bio matter]>", 
+    "Instantly consumes [500] [BTA science]", "Unbuildable <when below [500] [BTA science]>", 
     "May capture killed [All] units <with [100]% chance>", 
     "Only available <if [Tech level 5] is constructed>"
     ],
@@ -851,7 +852,7 @@
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", "[1] free [Hive drone] units appear", 
     "Instantly consumes [1600] [Bio matter]", "Unbuildable <when below [1600] [Bio matter]>", "[1] Movement <when attacking>", 
-    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [300] [BTA science]>", 
+    "Instantly consumes [400] [BTA science]", "Unbuildable <when below [400] [BTA science]>", 
     "[+2] Sight", "[100]% chance to intercept air attacks", "[+75]% Strength <vs [Air] units>",
     "Can carry [5] [Air] units", "All adjacent units heal [+5] HP when healing", "[+100]% Strength <when defending>",
     "[-10]% Strength for enemy [All] units in adjacent [All] tiles", "[+20]% Strength bonus for [All] units within [1] tiles", 
@@ -919,8 +920,8 @@
 		"range": 12,
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
-    "Instantly consumes [1200] [Bio matter]", "Unbuildable <when below [1000] [Bio matter]>", 
-    "Instantly consumes [250] [BTA science]", "Unbuildable <when below [100] [BTA science]>", 
+    "Instantly consumes [1200] [Bio matter]", "Unbuildable <when below [1200] [Bio matter]>", 
+    "Instantly consumes [250] [BTA science]", "Unbuildable <when below [250] [BTA science]>", 
     "Nuclear weapon of Strength [2]", "Blast radius [1]", 
     "Only available <if [Tech level 4] is constructed>", 
     "Only available <if [Air tech] is constructed>", 
@@ -937,8 +938,8 @@
 		"range": 16,
 		"cost": 1,
 		"uniques": ["Uncapturable", "Cannot be purchased", 
-    "Instantly consumes [3000] [Bio matter]", "Unbuildable <when below [2500] [Bio matter]>", 
-    "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [250] [BTA science]>", 
+    "Instantly consumes [3000] [Bio matter]", "Unbuildable <when below [3000] [Bio matter]>", 
+    "Instantly consumes [1000] [BTA science]", "Unbuildable <when below [1000] [BTA science]>", 
     "Nuclear weapon of Strength [5]", "Blast radius [3]", 
     "Only available <if [Tech level 5] is constructed>", 
     "Only available <if [Air tech] is constructed>", 
@@ -946,4 +947,5 @@
 		"attackSound": "nuke"
 	}
 ]
+
 
